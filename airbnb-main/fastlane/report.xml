@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000227">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: update_fastlane" time="0.034293">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: unlock_keychain" time="9.355394">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: app_store_connect_api_key" time="0.003394">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: match" time="31.50264">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: increment_build_number" time="2.310004">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: gym" time="49.529845">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: last_git_commit" time="0.066614">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="8: changelog_from_git_commits" time="0.013479">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

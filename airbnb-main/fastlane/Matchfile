@@ -1,0 +1,6 @@
+git_url("https://devops@gitlab.com/contextual/certs/ios-certificates")
+git_branch("main")
+storage_mode("git")
+verbose(true)
+type("adhoc")
+app_identifier ["com.contextual.airbnb"]

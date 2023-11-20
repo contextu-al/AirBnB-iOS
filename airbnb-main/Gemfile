@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+
+group :ci do
+  gem 'cocoapods'
+  gem 'fastlane'
+  gem 'xcode-install'
+  gem 'fastlane-plugin-versioning'
+  gem 'fastlane-plugin-appcenter'
+end
