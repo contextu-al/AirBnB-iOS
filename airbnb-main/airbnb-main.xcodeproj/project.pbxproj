@@ -83,7 +83,6 @@
 		84055D0D2941D21F005903A0 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84055D0C2941D21F005903A0 /* LocationCell.swift */; };
 		84A0F649289BC8AF002E01AD /* AirbnbExploreExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F648289BC8AF002E01AD /* AirbnbExploreExperienceController.swift */; };
 		84A0F64B289BC8F9002E01AD /* AirbnbExplorePlacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F64A289BC8F9002E01AD /* AirbnbExplorePlacesController.swift */; };
-		D23E1D1728647C5600C350C5 /* pointzi.m in Sources */ = {isa = PBXBuildFile; fileRef = D23E1D1628647C5600C350C5 /* pointzi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -181,7 +180,6 @@
 		84055D0C2941D21F005903A0 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		84A0F648289BC8AF002E01AD /* AirbnbExploreExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbExploreExperienceController.swift; sourceTree = "<group>"; };
 		84A0F64A289BC8F9002E01AD /* AirbnbExplorePlacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbExplorePlacesController.swift; sourceTree = "<group>"; };
-		D23E1D1628647C5600C350C5 /* pointzi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointzi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -362,7 +360,6 @@
 				756033FA1E69AB6C00B78E00 /* Assets.xcassets */,
 				756033FC1E69AB6C00B78E00 /* LaunchScreen.storyboard */,
 				756033FF1E69AB6C00B78E00 /* Info.plist */,
-				D23E1D1628647C5600C350C5 /* pointzi.m */,
 			);
 			path = "airbnb-main";
 			sourceTree = "<group>";
@@ -656,7 +653,6 @@
 				84A0F64B289BC8F9002E01AD /* AirbnbExplorePlacesController.swift in Sources */,
 				75497C321E9FA83E00F1B4E6 /* AirbnbButton.swift in Sources */,
 				75497C361E9FF93B00F1B4E6 /* AirbnbStar.swift in Sources */,
-				D23E1D1728647C5600C350C5 /* pointzi.m in Sources */,
 				105A83D42AF9A96500A625B7 /* CustomButtonStyle.swift in Sources */,
 				105A83D62AF9A96500A625B7 /* RoundedCornersShape.swift in Sources */,
 			);

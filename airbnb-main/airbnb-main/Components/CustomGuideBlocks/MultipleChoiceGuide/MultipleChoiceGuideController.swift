@@ -18,10 +18,12 @@ public class MultipleChoiceGuideController: CTXBaseGuideController {
                                            success: @escaping ((CTXIGuidePayload) -> ()),
                                            failure: @escaping ((CTXIGuidePayload) -> ())) {
         let guide = contextualContainer.guidePayload.guide
+        let title = guide.feedback?.feedbackMessage ?? "What are you primarily using our app for?"
+        let choices = guide.feedback?.arrayOptions as? [String] ?? ["Work", "Fun", "Chat GPT", "I don't know"]
         
         let question = MultipleChoiceQuestionModel(
-            title: guide.feedback?.feedbackMessage ?? "What are you primarily using our app for?",
-            answers: guide.feedback?.arrayOptions as? [String] ?? ["Work", "Fun", "Chat GPT", "I don't know"],
+            title: title,
+            answers: choices,
             multiSelect: true,
             tag: "MultipleChoice")
         
@@ -33,6 +35,26 @@ public class MultipleChoiceGuideController: CTXBaseGuideController {
                 self.dismissGuide()
             },
             doneTapped: {
+                let choices = question.choices.filter({ $0.selected }).map { $0.text }
+                let feedback = CTXFeedback(title: title, answers: choices, extraJSON: [
+                    "answers-array": choices,
+                    "any-other-custom-data": "Example custom data"
+                ])
+                contextualContainer.operations.submitFeedback(feedback,
+                                                              forGuide: contextualContainer.guidePayload,
+                                                              withHandler: nil)
+                
+                contextualContainer.operations.submitFeedback(feedback,
+                                                              forGuide: contextualContainer.guidePayload,
+                                                              withHandler: { request, error in
+                    if let error = error {
+                        // Handler error here as necessary
+                        return
+                    }
+                    
+                    // Handle success here as necessary, such as provide a modal to the user thanking them for their feedback
+                })
+
                 self.hostingController?.dismiss(animated: true)
                 self.nextStepOfGuide()
             })
