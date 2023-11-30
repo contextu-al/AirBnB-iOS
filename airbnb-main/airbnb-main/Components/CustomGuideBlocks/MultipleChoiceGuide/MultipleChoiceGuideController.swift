@@ -40,9 +40,6 @@ public class MultipleChoiceGuideController: CTXBaseGuideController {
                     "answers-array": choices,
                     "any-other-custom-data": "Example custom data"
                 ])
-                contextualContainer.operations.submitFeedback(feedback,
-                                                              forGuide: contextualContainer.guidePayload,
-                                                              withHandler: nil)
                 
                 contextualContainer.operations.submitFeedback(feedback,
                                                               forGuide: contextualContainer.guidePayload,
