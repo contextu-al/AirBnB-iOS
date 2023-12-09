@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1032F4C52B2422CF00841BD8 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032F4C32B2422CF00841BD8 /* ConfettiView.swift */; };
+		1032F4C62B2422CF00841BD8 /* ConfettiGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032F4C42B2422CF00841BD8 /* ConfettiGuide.swift */; };
+		1032F4C92B24231100841BD8 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1032F4C82B24231100841BD8 /* ConfettiSwiftUI */; };
 		10574FC82AFDB755004F01C1 /* AppFieldEditGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FC72AFDB755004F01C1 /* AppFieldEditGuide.swift */; };
 		10574FFF2B01AEE0004F01C1 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FFE2B01AEE0004F01C1 /* UIImageView.swift */; };
 		105A83CF2AF9A96500A625B7 /* SurveyItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83C12AF9A96500A625B7 /* SurveyItemType.swift */; };
@@ -99,6 +102,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1032F4C32B2422CF00841BD8 /* ConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		1032F4C42B2422CF00841BD8 /* ConfettiGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfettiGuide.swift; sourceTree = "<group>"; };
 		10574FC72AFDB755004F01C1 /* AppFieldEditGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFieldEditGuide.swift; sourceTree = "<group>"; };
 		10574FFE2B01AEE0004F01C1 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		105A83C12AF9A96500A625B7 /* SurveyItemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyItemType.swift; sourceTree = "<group>"; };
@@ -187,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1032F4C92B24231100841BD8 /* ConfettiSwiftUI in Frameworks */,
 				3A46CE88E15E47A0E2053230 /* Pods_airbnb_main.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +200,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1032F4C22B2422CF00841BD8 /* Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				1032F4C32B2422CF00841BD8 /* ConfettiView.swift */,
+				1032F4C42B2422CF00841BD8 /* ConfettiGuide.swift */,
+			);
+			path = Confetti;
+			sourceTree = "<group>";
+		};
 		10574FC62AFDB744004F01C1 /* AppFieldEdit */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				10574FC62AFDB744004F01C1 /* AppFieldEdit */,
+				1032F4C22B2422CF00841BD8 /* Confetti */,
 				105A83DD2AF9C38200A625B7 /* FancyAnnouncement */,
 				105A83DA2AF9AA1300A625B7 /* AdhocRowInsertion */,
 				105A83BF2AF9A96500A625B7 /* MultipleChoiceGuide */,
@@ -461,6 +477,9 @@
 			dependencies = (
 			);
 			name = "airbnb-main";
+			packageProductDependencies = (
+				1032F4C82B24231100841BD8 /* ConfettiSwiftUI */,
+			);
 			productName = "airbnb-main";
 			productReference = 756033F01E69AB6C00B78E00 /* airbnb-main.app */;
 			productType = "com.apple.product-type.application";
@@ -493,6 +512,9 @@
 				Base,
 			);
 			mainGroup = 756033E71E69AB6C00B78E00;
+			packageReferences = (
+				1032F4C72B24231100841BD8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -614,11 +636,13 @@
 				75E0628F1F0A6D4500B366EC /* AirbnbMapItemCell.swift in Sources */,
 				84055D0B2941CAD7005903A0 /* LocationItem.swift in Sources */,
 				106EBBBA2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift in Sources */,
+				1032F4C52B2422CF00841BD8 /* ConfettiView.swift in Sources */,
 				105A83DF2AF9C39400A625B7 /* FancyAnnouncementGuide.swift in Sources */,
 				756034961E75B74A00B78E00 /* String.swift in Sources */,
 				7560348E1E755B9A00B78E00 /* UIImage.swift in Sources */,
 				84055D0D2941D21F005903A0 /* LocationCell.swift in Sources */,
 				75497C341E9FA9AF00F1B4E6 /* AirbnbReview.swift in Sources */,
+				1032F4C62B2422CF00841BD8 /* ConfettiGuide.swift in Sources */,
 				750233761E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift in Sources */,
 				105A83D92AF9A96500A625B7 /* ISurveyQuestion.swift in Sources */,
 				75069EE31E923C8A009BFC12 /* AirbnbHomeItemCell.swift in Sources */,
@@ -784,7 +808,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
@@ -805,8 +830,11 @@
 				EXCLUDED_ARCHS = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "airbnb-main/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 2.3;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -859,8 +887,11 @@
 				DEVELOPMENT_TEAM = AG748WC3N7;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "airbnb-main/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 2.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -922,6 +953,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1032F4C72B24231100841BD8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1032F4C82B24231100841BD8 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1032F4C72B24231100841BD8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 756033E81E69AB6C00B78E00 /* Project object */;
 }
