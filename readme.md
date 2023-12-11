@@ -3,8 +3,9 @@ This sample application show's Contextual SDK for both no-code and low code use-
 # No Code
 
 1. Create an account at [Contextual Dashboard](https://dashboard.contextu.al/ "Contextual Dashboard").
-2. Install the Contextual SDK following the instructions for IOS or Android.
-3. Follow this [video]( https://player.vimeo.com/video/733886063?h=c799c48907&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479  "Guide Creation How-to") for more step-by-step guide creation.
+2. Install the Contextual SDK snippet by following the instructions in Setttings->Installation->Web.
+3. During this process, it will also install the Contextual Creator (Chrome Extension)
+4. Follow this [video]( https://vimeo.com/863459510?h=c799c48907&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479  "Guide Creation How-to") for more step-by-step guide creation.
 
 
 
@@ -19,17 +20,16 @@ Like something Contextual doesn’t offer in our Standard Components? Contextual
 
 In this example, we show how to make a Fancy Announcement, just like the crazy ones your Designer comes up with 🤣. Its a simple example to get you started with Contextual Extensibility without needing to hard-code your changes every time you want to update the tip.
 
-1. Create an account at [Contextual Dashboard](https://dashboard.contextu.al/ "Contextual Dashboard").
-2. Install the Contextual SDK following the instructions for IOS or Android.
-3. Add the sample wrapper code  *FancyAnnouncement* to your App. 
-4. Copy-Paste the instantiation of the Guide Component AFTER the Contextual SDK registration. 
-5. Build your App and Run it on a phone or 
-6. Go to the Dashboard and create a guide:
+1. Complete the steps in "No Code" above.
+2. Add the sample wrapper code  *FancyAnnouncement* to your App. 
+3. Copy-Paste the instantiation of the Guide Component AFTER the Contextual SDK registration. 
+4. Build your App and Run it on a phone or 
+5. Go to the Dashboard and create a guide:
  * Use this [video]( https://vimeo.com/863886653#t=0m58s "Another Guide Creation How-to") to see the steps
  * choose “Display the guides on any screen of your app” and 
  * pick one of the “Standard” Contextual Announcement Templates.
  * Preview the Announcement on your Phone - it should look similar to the template
-7. Now go to the Extensibility section in the sidebar and paste in the JSON as follows:
+6. Now go to the Extensibility section in the sidebar and paste in the JSON as follows:
 `
 {
   "guideBlockKey": "FancyAnnouncement"

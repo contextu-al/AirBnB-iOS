@@ -38,12 +38,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     private func registerContextual() {
         let appKey = "swift_airbnb_dj"
+
         
         Contextual.sharedInstance().registerGuideBlock(MultipleChoiceGuideController(), forKey: "MultipleChoiceCustom")
         Contextual.sharedInstance().registerGuideBlock(AdhocRowInsertion(), forKey: "AdhocRowInsertion")
-        Contextual.sharedInstance().registerGuideBlock(FancyAnnouncementGuide(), forKey: "FancyAnnouncement")
+        Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "FancyAnnouncement")
         Contextual.sharedInstance().registerGuideBlock(AppFieldEditGuide.sharedInstance, forKey: "AppFieldEdit")
         Contextual.sharedInstance().registerGuideBlock(ConfettiGuide(), forKey: "Confetti")
+        
+        Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "CircleVideo")
+
         
         Contextual.sharedInstance().registerInstall(forApp: appKey,
                                                     withDebugMode: true) {
