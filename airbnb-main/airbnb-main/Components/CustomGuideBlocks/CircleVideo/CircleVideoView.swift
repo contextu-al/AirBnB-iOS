@@ -31,18 +31,18 @@ struct CircleVideoView: View {
     var body: some View {
 
         VStack {
-            Button("Dismiss", action: {
+            Button("<X>", action: {
                 self.dismissbuttonTapped()
             })
             WebView(url: URL(string: vid_url)!)
-                .cornerRadius(15)
+                .cornerRadius(70)
                 .frame(height: 150) // Adjust size as needed
             
         }
         .frame(width: 150, height: 150) // Adjust popup size
         .background(Color.white)
-        .cornerRadius(15)
-        .shadow(radius: 15)
+        .cornerRadius(70)
+        .shadow(radius: 70)
         
     }
 }
