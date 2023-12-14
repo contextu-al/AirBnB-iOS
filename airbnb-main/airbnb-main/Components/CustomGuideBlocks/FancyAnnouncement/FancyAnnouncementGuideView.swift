@@ -11,7 +11,6 @@ import SwiftUI
 struct FancyAnnouncementGuideView: View {
     var title: String
     var message: String
-    var buttonText: String
     var buttonTapped: () -> ()
 
     var body: some View {
@@ -49,7 +48,7 @@ struct FancyAnnouncementGuideView: View {
 
 struct FancyAnnouncementGuideView_Previews: PreviewProvider {
     static var previews: some View {
-        FancyAnnouncementGuideView(title: "Title", message: "Message", buttonText: "Done") {
+        FancyAnnouncementGuideView(title: "Title", message: "Message") {
             // Do nothing
         }
     }

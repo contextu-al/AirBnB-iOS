@@ -34,12 +34,7 @@ public class FancyAnnouncementGuide: CTXBaseGuideController {
             return
         }
         
-        guard let buttonText = guide.next.buttonText else {
-            failure(contextualContainer.guidePayload)
-            return
-        }
-        
-        let view = FancyAnnouncementGuideView(title: title, message: message, buttonText: buttonText, buttonTapped: {
+        let view = FancyAnnouncementGuideView(title: title, message: message, buttonTapped: {
             self.hostingController?.willMove(toParent: nil)
             self.hostingController?.view.removeFromSuperview()
             self.hostingController?.removeFromParentViewController()
