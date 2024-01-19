@@ -22,6 +22,14 @@ public class CircleVideoGuide: CTXBaseGuideController {
             return
         }
         
+        /* Example GuideBlock JSON for Dashboard
+         {
+           "guideBlockKey": "CircleVideo",
+           "vid_url": "https://www.youtube.com/embed/Y9ChGCY8Azk?si=aLGas88lnxI6g_jJ?autoplay=1",
+           "circle_diameter":200
+         }
+         */
+        
         let guide = contextualContainer.guidePayload.guide
                 
         guard let vid_url = guide.extraJson?["vid_url"] as? String else {
