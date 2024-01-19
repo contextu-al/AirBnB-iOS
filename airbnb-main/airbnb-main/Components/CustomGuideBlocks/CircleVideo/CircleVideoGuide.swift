@@ -28,8 +28,13 @@ public class CircleVideoGuide: CTXBaseGuideController {
             failure(contextualContainer.guidePayload)
             return
         }
+        guard let circle_diameter = guide.extraJson?["circle_diameter"] as? Int else {
+            let circle_diameter = 150
+            return
+        }
         
-        let view = CircleVideoView(vid_url: vid_url, dismissbuttonTapped: {
+        
+        let view = CircleVideoView(vid_url: vid_url, circle_diameter: circle_diameter, dismissbuttonTapped: {
             self.hostingController?.willMove(toParent: nil)
             self.hostingController?.view.removeFromSuperview()
             self.hostingController?.removeFromParentViewController()
@@ -47,7 +52,7 @@ public class CircleVideoGuide: CTXBaseGuideController {
         
         controller.addChildViewController(self.hostingController!)
         controller.view.addSubview(self.hostingController!.view)
-        
+        self.hostingController?.view.backgroundColor = .clear
         hostingController.view.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([

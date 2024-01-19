@@ -9,7 +9,7 @@ PODS:
     - AppCenter/Core
   - AppCenter/Distribute (5.0.4):
     - AppCenter/Core
-  - Contextual (2.11.4-beta):
+  - Contextual (3.0.1):
     - paper-onboarding-pointzi
   - paper-onboarding-pointzi (2.0.6)
 
@@ -29,9 +29,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppCenter: 85c92db0759d2792a65eb61d6842d2e86611a49a
-  Contextual: b088e69fdc8e9691d52fdadd795657d4b522e176
+  Contextual: b2a16c1ce7b4f2eabea6862081d59532a7b79269
   paper-onboarding-pointzi: 1349b198730213573a6171898dbbfb57dd581393
 
 PODFILE CHECKSUM: 99dc7768f0f5edfc7e4c88b7fc1fdbc1c155321a
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.14.3

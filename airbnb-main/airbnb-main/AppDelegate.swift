@@ -52,7 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerInstall(forApp: appKey,
                                                     withDebugMode: true) {
             let createdTime = ctxFormatDate(Date())
-            Contextual.sharedInstance().tagCuid("airbnb-demo \(createdTime ?? "")")
+            Contextual.sharedInstance().tagUserId("airbnb-demo \(createdTime ?? "")")
         }
     }              
 
