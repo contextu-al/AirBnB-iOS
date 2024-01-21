@@ -8,10 +8,19 @@
 import SwiftUI
 import ContextualSDK
 
+
+/// A guide controller for displaying a circle video view.
 public class CircleVideoGuide: CTXBaseGuideController {
     
     private var hostingController: UIHostingController<CircleVideoView>?
     
+    /// Presents the guide block.
+    ///
+    /// - Parameters:
+    ///   - contextualContainer: The contextual container.
+    ///   - controller: The view controller to present the guide block on.
+    ///   - success: The closure to be called when the guide block is successfully presented.
+    ///   - failure: The closure to be called when there is a failure in presenting the guide block.
     public override func presentGuideBlock(contextualContainer: ContextualContainer,
                                            viewController controller: UIViewController?,
                                            success: @escaping ((CTXIGuidePayload) -> ()),
@@ -73,6 +82,7 @@ public class CircleVideoGuide: CTXBaseGuideController {
         success(contextualContainer.guidePayload)
     }
     
+    /// Called when the app or framework dismisses the guide block, do cleanup to remove it.
     override public func isDismissingGuide() {
         self.hostingController?.willMove(toParent: nil)
         self.hostingController?.view.removeFromSuperview()

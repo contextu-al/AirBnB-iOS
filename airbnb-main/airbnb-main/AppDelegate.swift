@@ -25,6 +25,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             AppCenter.start(withAppSecret: "32ad9f1e-bd99-449b-baed-f87703f9afb8", services: [Distribute.self])
         #endif
         
+        /**
+         Registers the contextual library.
+
+         This method is responsible for registering the Contextual library in the app delegate.
+
+         - Parameter None
+         - Returns: None
+         */
         self.registerContextual()
         
         // Override point for customization after application launch.
@@ -40,18 +48,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let appKey = "swift_airbnb_dj"
 
         
+        /**
+         Registers a guide block for a given key in the Contextual framework.
+
+         - Parameters:
+             - guideBlock: The guide block to be registered.
+             - key: The key associated with the guide block.
+
+         - Note:
+             The guide block will be used by the Contextual framework to provide contextual guidance to the user.
+
+         - Warning:
+             Make sure to provide a unique key for each guide block to avoid conflicts.
+
+         - SeeAlso:
+             `Contextual.sharedInstance()`
+         */
         Contextual.sharedInstance().registerGuideBlock(MultipleChoiceGuideController(), forKey: "MultipleChoiceCustom")
         Contextual.sharedInstance().registerGuideBlock(AdhocRowInsertion(), forKey: "AdhocRowInsertion")
         Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "FancyAnnouncement")
         Contextual.sharedInstance().registerGuideBlock(AppFieldEditGuide.sharedInstance, forKey: "AppFieldEdit")
         Contextual.sharedInstance().registerGuideBlock(ConfettiGuide(), forKey: "Confetti")
-        
         Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "CircleVideo")
 
         
         Contextual.sharedInstance().registerInstall(forApp: appKey,
                                                     withDebugMode: true) {
             let createdTime = ctxFormatDate(Date())
+            /**
+             Calls the `tagUserId` method of the `Contextual` singleton instance to tag the user ID.
+
+             - Parameters:
+                 - userId: The user ID to be tagged.
+
+             - Note: The `tagUserId` method is used to associate a user ID with the current device "install" in the Contextual framework.
+                    This allows for the user to be identified across multiple devices and also for the Contextual REST API to update 
+                    from your backend with the user ID. (refer to the tag sh_cuid in the Contextual REST API documentation)
+             */
             Contextual.sharedInstance().tagUserId("airbnb-demo \(createdTime ?? "")")
         }
     }              
