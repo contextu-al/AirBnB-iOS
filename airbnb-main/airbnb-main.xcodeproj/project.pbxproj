@@ -10,19 +10,9 @@
 		1032F4C52B2422CF00841BD8 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032F4C32B2422CF00841BD8 /* ConfettiView.swift */; };
 		1032F4C62B2422CF00841BD8 /* ConfettiGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032F4C42B2422CF00841BD8 /* ConfettiGuide.swift */; };
 		1032F4C92B24231100841BD8 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1032F4C82B24231100841BD8 /* ConfettiSwiftUI */; };
+		104095D92B6210E500C89E2D /* MultiSelectSurvey in Frameworks */ = {isa = PBXBuildFile; productRef = 104095D82B6210E500C89E2D /* MultiSelectSurvey */; };
 		10574FC82AFDB755004F01C1 /* AppFieldEditGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FC72AFDB755004F01C1 /* AppFieldEditGuide.swift */; };
 		10574FFF2B01AEE0004F01C1 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FFE2B01AEE0004F01C1 /* UIImageView.swift */; };
-		105A83CF2AF9A96500A625B7 /* SurveyItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83C12AF9A96500A625B7 /* SurveyItemType.swift */; };
-		105A83D02AF9A96500A625B7 /* MultipleChoiceResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83C32AF9A96500A625B7 /* MultipleChoiceResponseModel.swift */; };
-		105A83D12AF9A96500A625B7 /* MultipleChoiceQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83C42AF9A96500A625B7 /* MultipleChoiceQuestionModel.swift */; };
-		105A83D22AF9A96500A625B7 /* MultipleChoiceGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83C52AF9A96500A625B7 /* MultipleChoiceGuideController.swift */; };
-		105A83D32AF9A96500A625B7 /* MultipleChoiceResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83C72AF9A96500A625B7 /* MultipleChoiceResponseView.swift */; };
-		105A83D42AF9A96500A625B7 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83C82AF9A96500A625B7 /* CustomButtonStyle.swift */; };
-		105A83D52AF9A96500A625B7 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83C92AF9A96500A625B7 /* SurveyView.swift */; };
-		105A83D62AF9A96500A625B7 /* RoundedCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83CA2AF9A96500A625B7 /* RoundedCornersShape.swift */; };
-		105A83D72AF9A96500A625B7 /* TextFieldWithDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83CB2AF9A96500A625B7 /* TextFieldWithDone.swift */; };
-		105A83D82AF9A96500A625B7 /* MultipleChoiceQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83CC2AF9A96500A625B7 /* MultipleChoiceQuestionView.swift */; };
-		105A83D92AF9A96500A625B7 /* ISurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83CE2AF9A96500A625B7 /* ISurveyQuestion.swift */; };
 		105A83DC2AF9AA3600A625B7 /* AdhocRowInsertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83DB2AF9AA3600A625B7 /* AdhocRowInsertion.swift */; };
 		105A83DF2AF9C39400A625B7 /* FancyAnnouncementGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83DE2AF9C39400A625B7 /* FancyAnnouncementGuide.swift */; };
 		105A83E12AF9C44700A625B7 /* FancyAnnouncementGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83E02AF9C44700A625B7 /* FancyAnnouncementGuideView.swift */; };
@@ -106,17 +96,6 @@
 		1032F4C42B2422CF00841BD8 /* ConfettiGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfettiGuide.swift; sourceTree = "<group>"; };
 		10574FC72AFDB755004F01C1 /* AppFieldEditGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFieldEditGuide.swift; sourceTree = "<group>"; };
 		10574FFE2B01AEE0004F01C1 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
-		105A83C12AF9A96500A625B7 /* SurveyItemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyItemType.swift; sourceTree = "<group>"; };
-		105A83C32AF9A96500A625B7 /* MultipleChoiceResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceResponseModel.swift; sourceTree = "<group>"; };
-		105A83C42AF9A96500A625B7 /* MultipleChoiceQuestionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceQuestionModel.swift; sourceTree = "<group>"; };
-		105A83C52AF9A96500A625B7 /* MultipleChoiceGuideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceGuideController.swift; sourceTree = "<group>"; };
-		105A83C72AF9A96500A625B7 /* MultipleChoiceResponseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceResponseView.swift; sourceTree = "<group>"; };
-		105A83C82AF9A96500A625B7 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
-		105A83C92AF9A96500A625B7 /* SurveyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
-		105A83CA2AF9A96500A625B7 /* RoundedCornersShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersShape.swift; sourceTree = "<group>"; };
-		105A83CB2AF9A96500A625B7 /* TextFieldWithDone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldWithDone.swift; sourceTree = "<group>"; };
-		105A83CC2AF9A96500A625B7 /* MultipleChoiceQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceQuestionView.swift; sourceTree = "<group>"; };
-		105A83CE2AF9A96500A625B7 /* ISurveyQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISurveyQuestion.swift; sourceTree = "<group>"; };
 		105A83DB2AF9AA3600A625B7 /* AdhocRowInsertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdhocRowInsertion.swift; sourceTree = "<group>"; };
 		105A83DE2AF9C39400A625B7 /* FancyAnnouncementGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyAnnouncementGuide.swift; sourceTree = "<group>"; };
 		105A83E02AF9C44700A625B7 /* FancyAnnouncementGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyAnnouncementGuideView.swift; sourceTree = "<group>"; };
@@ -194,6 +173,7 @@
 			files = (
 				1032F4C92B24231100841BD8 /* ConfettiSwiftUI in Frameworks */,
 				3A46CE88E15E47A0E2053230 /* Pods_airbnb_main.framework in Frameworks */,
+				104095D92B6210E500C89E2D /* MultiSelectSurvey in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,59 +204,8 @@
 				1032F4C22B2422CF00841BD8 /* Confetti */,
 				105A83DD2AF9C38200A625B7 /* FancyAnnouncement */,
 				105A83DA2AF9AA1300A625B7 /* AdhocRowInsertion */,
-				105A83BF2AF9A96500A625B7 /* MultipleChoiceGuide */,
 			);
 			path = CustomGuideBlocks;
-			sourceTree = "<group>";
-		};
-		105A83BF2AF9A96500A625B7 /* MultipleChoiceGuide */ = {
-			isa = PBXGroup;
-			children = (
-				105A83C02AF9A96500A625B7 /* Enums */,
-				105A83C22AF9A96500A625B7 /* Models */,
-				105A83C62AF9A96500A625B7 /* Views */,
-				105A83CD2AF9A96500A625B7 /* Protocols */,
-				105A83C52AF9A96500A625B7 /* MultipleChoiceGuideController.swift */,
-			);
-			path = MultipleChoiceGuide;
-			sourceTree = "<group>";
-		};
-		105A83C02AF9A96500A625B7 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				105A83C12AF9A96500A625B7 /* SurveyItemType.swift */,
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
-		105A83C22AF9A96500A625B7 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				105A83C32AF9A96500A625B7 /* MultipleChoiceResponseModel.swift */,
-				105A83C42AF9A96500A625B7 /* MultipleChoiceQuestionModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		105A83C62AF9A96500A625B7 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				105A83C72AF9A96500A625B7 /* MultipleChoiceResponseView.swift */,
-				105A83C82AF9A96500A625B7 /* CustomButtonStyle.swift */,
-				105A83C92AF9A96500A625B7 /* SurveyView.swift */,
-				105A83CA2AF9A96500A625B7 /* RoundedCornersShape.swift */,
-				105A83CB2AF9A96500A625B7 /* TextFieldWithDone.swift */,
-				105A83CC2AF9A96500A625B7 /* MultipleChoiceQuestionView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		105A83CD2AF9A96500A625B7 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				105A83CE2AF9A96500A625B7 /* ISurveyQuestion.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		105A83DA2AF9AA1300A625B7 /* AdhocRowInsertion */ = {
@@ -470,7 +399,6 @@
 				756033EE1E69AB6C00B78E00 /* Resources */,
 				756034521E6C45C500B78E00 /* Embed Frameworks */,
 				B32EEAB650FB97DF8177DBEF /* [CP] Copy Pods Resources */,
-				5D88500A1804D860BD642291 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -479,6 +407,7 @@
 			name = "airbnb-main";
 			packageProductDependencies = (
 				1032F4C82B24231100841BD8 /* ConfettiSwiftUI */,
+				104095D82B6210E500C89E2D /* MultiSelectSurvey */,
 			);
 			productName = "airbnb-main";
 			productReference = 756033F01E69AB6C00B78E00 /* airbnb-main.app */;
@@ -514,6 +443,7 @@
 			mainGroup = 756033E71E69AB6C00B78E00;
 			packageReferences = (
 				1032F4C72B24231100841BD8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				104095D72B6210E500C89E2D /* XCRemoteSwiftPackageReference "MultipleSelectSurvey" */,
 			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
 			projectDirPath = "";
@@ -541,26 +471,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5D88500A1804D860BD642291 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-airbnb-main/Pods-airbnb-main-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/paper-onboarding-pointzi/paper_onboarding_pointzi.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Contextual/ContextualSDK.framework/ContextualSDK",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding_pointzi.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ContextualSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-airbnb-main/Pods-airbnb-main-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AFEF396177B2D8607CEE7C00 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -609,7 +519,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				756034901E7582A100B78E00 /* AirbnbExploreFeedController.swift in Sources */,
-				105A83D72AF9A96500A625B7 /* TextFieldWithDone.swift in Sources */,
 				84A0F649289BC8AF002E01AD /* AirbnbExploreExperienceController.swift in Sources */,
 				106EBBB42A1EEEDD003AEA2D /* AirbnbDatePickerViewController.swift in Sources */,
 				75497C381EA154DC00F1B4E6 /* AirbnbIconLabel.swift in Sources */,
@@ -618,14 +527,10 @@
 				75497C3A1EA9117100F1B4E6 /* AirbnbMapController.swift in Sources */,
 				75497C2A1E9BCD0C00F1B4E6 /* ImageExpandAnimationController.swift in Sources */,
 				10574FC82AFDB755004F01C1 /* AppFieldEditGuide.swift in Sources */,
-				105A83D52AF9A96500A625B7 /* SurveyView.swift in Sources */,
-				105A83D22AF9A96500A625B7 /* MultipleChoiceGuideController.swift in Sources */,
 				75497C301E9FA30700F1B4E6 /* VerticalAlignLabel.swift in Sources */,
 				7560349A1E84120900B78E00 /* AirbnbExploreHomeController.swift in Sources */,
 				756034941E75B3C600B78E00 /* AirbnbPageTabItem.swift in Sources */,
-				105A83D82AF9A96500A625B7 /* MultipleChoiceQuestionView.swift in Sources */,
 				10574FFF2B01AEE0004F01C1 /* UIImageView.swift in Sources */,
-				105A83D32AF9A96500A625B7 /* MultipleChoiceResponseView.swift in Sources */,
 				106EBBA52A1EEEDD003AEA2D /* AirbnbOccupantFilter.swift in Sources */,
 				7560347E1E6DCB3D00B78E00 /* AirbnbContentThumbnail.swift in Sources */,
 				84055D092941CAB6005903A0 /* LocationDataManager.swift in Sources */,
@@ -644,7 +549,6 @@
 				75497C341E9FA9AF00F1B4E6 /* AirbnbReview.swift in Sources */,
 				1032F4C62B2422CF00841BD8 /* ConfettiGuide.swift in Sources */,
 				750233761E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift in Sources */,
-				105A83D92AF9A96500A625B7 /* ISurveyQuestion.swift in Sources */,
 				75069EE31E923C8A009BFC12 /* AirbnbHomeItemCell.swift in Sources */,
 				106EBBB52A1EEEDD003AEA2D /* Utility.swift in Sources */,
 				106EBBB92A1EEEDD003AEA2D /* AirbnbDatePicker.swift in Sources */,
@@ -661,12 +565,9 @@
 				75497C2C1E9C748000F1B4E6 /* ImageShrinkAnimationController.swift in Sources */,
 				756034061E69AD7400B78E00 /* AirbnbMainController.swift in Sources */,
 				756034831E6DD28800B78E00 /* AirbnbCategoryTableCell.swift in Sources */,
-				105A83CF2AF9A96500A625B7 /* SurveyItemType.swift in Sources */,
 				106EBBAA2A1EEEDD003AEA2D /* AirbnbOccupantFilterController.swift in Sources */,
 				10B122782AFB512800ED3A97 /* AirbnbCustomTableCell.swift in Sources */,
-				105A83D02AF9A96500A625B7 /* MultipleChoiceResponseModel.swift in Sources */,
 				106EBBAB2A1EEEDD003AEA2D /* Date+DatePicker.swift in Sources */,
-				105A83D12AF9A96500A625B7 /* MultipleChoiceQuestionModel.swift in Sources */,
 				7502337A1E8BB7D000766F8A /* AirbnbPageTabNavigationView.swift in Sources */,
 				106EBBAF2A1EEEDD003AEA2D /* AirbnbDatePickerMonthHeader.swift in Sources */,
 				756034851E6DD2A400B78E00 /* BaseTableCell.swift in Sources */,
@@ -677,8 +578,6 @@
 				84A0F64B289BC8F9002E01AD /* AirbnbExplorePlacesController.swift in Sources */,
 				75497C321E9FA83E00F1B4E6 /* AirbnbButton.swift in Sources */,
 				75497C361E9FF93B00F1B4E6 /* AirbnbStar.swift in Sources */,
-				105A83D42AF9A96500A625B7 /* CustomButtonStyle.swift in Sources */,
-				105A83D62AF9A96500A625B7 /* RoundedCornersShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -963,6 +862,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		104095D72B6210E500C89E2D /* XCRemoteSwiftPackageReference "MultipleSelectSurvey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GuideBlocks-org/MultipleSelectSurvey";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -970,6 +877,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1032F4C72B24231100841BD8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
 			productName = ConfettiSwiftUI;
+		};
+		104095D82B6210E500C89E2D /* MultiSelectSurvey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 104095D72B6210E500C89E2D /* XCRemoteSwiftPackageReference "MultipleSelectSurvey" */;
+			productName = MultiSelectSurvey;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -10,6 +10,7 @@ import UIKit
 import AppCenter
 import AppCenterDistribute
 import ContextualSDK
+import MultiSelectSurvey
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -27,9 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.registerContextual()
         
-        // Override point for customization after application launch.
-        UIApplication.shared.statusBarStyle = .lightContent
-        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = AirbnbMainController()        
         window?.makeKeyAndVisible()
@@ -39,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func registerContextual() {
         let appKey = "swift_airbnb_dj"
         
-        Contextual.sharedInstance().registerGuideBlock(MultipleChoiceGuideController(), forKey: "MultipleChoiceCustom")
+        Contextual.sharedInstance().registerGuideBlock(MultiSelectSurveyGuideController(), forKey: "MultiSelectSurvey")
         Contextual.sharedInstance().registerGuideBlock(AdhocRowInsertion(), forKey: "AdhocRowInsertion")
         Contextual.sharedInstance().registerGuideBlock(FancyAnnouncementGuide(), forKey: "FancyAnnouncement")
         Contextual.sharedInstance().registerGuideBlock(AppFieldEditGuide.sharedInstance, forKey: "AppFieldEdit")
@@ -48,7 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerInstall(forApp: appKey,
                                                     withDebugMode: true) {
             let createdTime = ctxFormatDate(Date())
-            Contextual.sharedInstance().tagCuid("airbnb-demo \(createdTime ?? "")")
+            Contextual.sharedInstance().tagUserId("airbnb-demo \(createdTime ?? "")")
         }
     }              
 
@@ -73,7 +71,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
-
