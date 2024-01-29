@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1032F4C92B24231100841BD8 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1032F4C82B24231100841BD8 /* ConfettiSwiftUI */; };
 		10574FC82AFDB755004F01C1 /* AppFieldEditGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FC72AFDB755004F01C1 /* AppFieldEditGuide.swift */; };
 		10574FFF2B01AEE0004F01C1 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FFE2B01AEE0004F01C1 /* UIImageView.swift */; };
 		105A83DC2AF9AA3600A625B7 /* AdhocRowInsertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83DB2AF9AA3600A625B7 /* AdhocRowInsertion.swift */; };
@@ -163,7 +162,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1032F4C92B24231100841BD8 /* ConfettiSwiftUI in Frameworks */,
 				3A46CE88E15E47A0E2053230 /* Pods_airbnb_main.framework in Frameworks */,
 				107E9DEF2B6766FD00AE8E17 /* iOS-GuideBlocks in Frameworks */,
 			);
@@ -378,7 +376,6 @@
 			);
 			name = "airbnb-main";
 			packageProductDependencies = (
-				1032F4C82B24231100841BD8 /* ConfettiSwiftUI */,
 				107E9DEE2B6766FD00AE8E17 /* iOS-GuideBlocks */,
 			);
 			productName = "airbnb-main";
@@ -414,7 +411,6 @@
 			);
 			mainGroup = 756033E71E69AB6C00B78E00;
 			packageReferences = (
-				1032F4C72B24231100841BD8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
 				107E9DED2B6766FD00AE8E17 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
 			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
@@ -822,30 +818,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1032F4C72B24231100841BD8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 		107E9DED2B6766FD00AE8E17 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/GuideBlocks-org/iOS-GuideBlocks";
 			requirement = {
-				branch = main;
+				branch = confetti;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1032F4C82B24231100841BD8 /* ConfettiSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1032F4C72B24231100841BD8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
-			productName = ConfettiSwiftUI;
-		};
 		107E9DEE2B6766FD00AE8E17 /* iOS-GuideBlocks */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 107E9DED2B6766FD00AE8E17 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
