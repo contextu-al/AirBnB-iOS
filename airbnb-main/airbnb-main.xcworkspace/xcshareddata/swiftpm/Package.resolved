@@ -19,12 +19,12 @@
       }
     },
     {
-      "identity" : "multipleselectsurvey",
+      "identity" : "ios-guideblocks",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/GuideBlocks-org/MultipleSelectSurvey",
+      "location" : "https://github.com/GuideBlocks-org/iOS-GuideBlocks",
       "state" : {
-        "revision" : "ec3812f84dfa7a312fc80dcf7589c8a06c4e9aed",
-        "version" : "1.0.0"
+        "branch" : "main",
+        "revision" : "44e3489d65c2f1eaf35f93cd2ded23667960a706"
       }
     }
   ],

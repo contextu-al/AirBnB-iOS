@@ -10,7 +10,7 @@ import UIKit
 import AppCenter
 import AppCenterDistribute
 import ContextualSDK
-import MultiSelectSurvey
+import iOS_GuideBlocks
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

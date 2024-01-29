@@ -10,7 +10,6 @@
 		1032F4C52B2422CF00841BD8 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032F4C32B2422CF00841BD8 /* ConfettiView.swift */; };
 		1032F4C62B2422CF00841BD8 /* ConfettiGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032F4C42B2422CF00841BD8 /* ConfettiGuide.swift */; };
 		1032F4C92B24231100841BD8 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1032F4C82B24231100841BD8 /* ConfettiSwiftUI */; };
-		104095D92B6210E500C89E2D /* MultiSelectSurvey in Frameworks */ = {isa = PBXBuildFile; productRef = 104095D82B6210E500C89E2D /* MultiSelectSurvey */; };
 		10574FC82AFDB755004F01C1 /* AppFieldEditGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FC72AFDB755004F01C1 /* AppFieldEditGuide.swift */; };
 		10574FFF2B01AEE0004F01C1 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FFE2B01AEE0004F01C1 /* UIImageView.swift */; };
 		105A83DC2AF9AA3600A625B7 /* AdhocRowInsertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83DB2AF9AA3600A625B7 /* AdhocRowInsertion.swift */; };
@@ -32,6 +31,7 @@
 		106EBBB92A1EEEDD003AEA2D /* AirbnbDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB9A2A1EEEDD003AEA2D /* AirbnbDatePicker.swift */; };
 		106EBBBA2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB9B2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift */; };
 		106EBBBC2A1EEEDD003AEA2D /* AirbnbDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB9D2A1EEEDD003AEA2D /* AirbnbDatePickerCell.swift */; };
+		107E9DEF2B6766FD00AE8E17 /* iOS-GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = 107E9DEE2B6766FD00AE8E17 /* iOS-GuideBlocks */; };
 		10B122782AFB512800ED3A97 /* AirbnbCustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B122772AFB512800ED3A97 /* AirbnbCustomTableCell.swift */; };
 		3A46CE88E15E47A0E2053230 /* Pods_airbnb_main.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8CA6D5BD902FA4A8B72DE5 /* Pods_airbnb_main.framework */; };
 		750233761E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750233751E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift */; };
@@ -173,7 +173,7 @@
 			files = (
 				1032F4C92B24231100841BD8 /* ConfettiSwiftUI in Frameworks */,
 				3A46CE88E15E47A0E2053230 /* Pods_airbnb_main.framework in Frameworks */,
-				104095D92B6210E500C89E2D /* MultiSelectSurvey in Frameworks */,
+				107E9DEF2B6766FD00AE8E17 /* iOS-GuideBlocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +407,7 @@
 			name = "airbnb-main";
 			packageProductDependencies = (
 				1032F4C82B24231100841BD8 /* ConfettiSwiftUI */,
-				104095D82B6210E500C89E2D /* MultiSelectSurvey */,
+				107E9DEE2B6766FD00AE8E17 /* iOS-GuideBlocks */,
 			);
 			productName = "airbnb-main";
 			productReference = 756033F01E69AB6C00B78E00 /* airbnb-main.app */;
@@ -443,7 +443,7 @@
 			mainGroup = 756033E71E69AB6C00B78E00;
 			packageReferences = (
 				1032F4C72B24231100841BD8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
-				104095D72B6210E500C89E2D /* XCRemoteSwiftPackageReference "MultipleSelectSurvey" */,
+				107E9DED2B6766FD00AE8E17 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
 			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
 			projectDirPath = "";
@@ -862,12 +862,12 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		104095D72B6210E500C89E2D /* XCRemoteSwiftPackageReference "MultipleSelectSurvey" */ = {
+		107E9DED2B6766FD00AE8E17 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/GuideBlocks-org/MultipleSelectSurvey";
+			repositoryURL = "https://github.com/GuideBlocks-org/iOS-GuideBlocks";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -878,10 +878,10 @@
 			package = 1032F4C72B24231100841BD8 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
 			productName = ConfettiSwiftUI;
 		};
-		104095D82B6210E500C89E2D /* MultiSelectSurvey */ = {
+		107E9DEE2B6766FD00AE8E17 /* iOS-GuideBlocks */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 104095D72B6210E500C89E2D /* XCRemoteSwiftPackageReference "MultipleSelectSurvey" */;
-			productName = MultiSelectSurvey;
+			package = 107E9DED2B6766FD00AE8E17 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
+			productName = "iOS-GuideBlocks";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
