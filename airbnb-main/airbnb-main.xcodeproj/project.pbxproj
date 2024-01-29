@@ -11,8 +11,6 @@
 		10574FC82AFDB755004F01C1 /* AppFieldEditGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FC72AFDB755004F01C1 /* AppFieldEditGuide.swift */; };
 		10574FFF2B01AEE0004F01C1 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FFE2B01AEE0004F01C1 /* UIImageView.swift */; };
 		105A83DC2AF9AA3600A625B7 /* AdhocRowInsertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83DB2AF9AA3600A625B7 /* AdhocRowInsertion.swift */; };
-		105A83DF2AF9C39400A625B7 /* FancyAnnouncementGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83DE2AF9C39400A625B7 /* FancyAnnouncementGuide.swift */; };
-		105A83E12AF9C44700A625B7 /* FancyAnnouncementGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A83E02AF9C44700A625B7 /* FancyAnnouncementGuideView.swift */; };
 		106EBBA02A1EEEDD003AEA2D /* OccupantFilterAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106EBB7C2A1EEEDC003AEA2D /* OccupantFilterAssets.xcassets */; };
 		106EBBA32A1EEEDD003AEA2D /* AirbnbCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB812A1EEEDC003AEA2D /* AirbnbCounter.swift */; };
 		106EBBA42A1EEEDD003AEA2D /* AirbnbSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB822A1EEEDC003AEA2D /* AirbnbSwitch.swift */; };
@@ -93,8 +91,6 @@
 		10574FC72AFDB755004F01C1 /* AppFieldEditGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFieldEditGuide.swift; sourceTree = "<group>"; };
 		10574FFE2B01AEE0004F01C1 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		105A83DB2AF9AA3600A625B7 /* AdhocRowInsertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdhocRowInsertion.swift; sourceTree = "<group>"; };
-		105A83DE2AF9C39400A625B7 /* FancyAnnouncementGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyAnnouncementGuide.swift; sourceTree = "<group>"; };
-		105A83E02AF9C44700A625B7 /* FancyAnnouncementGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyAnnouncementGuideView.swift; sourceTree = "<group>"; };
 		106EBB7C2A1EEEDC003AEA2D /* OccupantFilterAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = OccupantFilterAssets.xcassets; sourceTree = "<group>"; };
 		106EBB812A1EEEDC003AEA2D /* AirbnbCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirbnbCounter.swift; sourceTree = "<group>"; };
 		106EBB822A1EEEDC003AEA2D /* AirbnbSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirbnbSwitch.swift; sourceTree = "<group>"; };
@@ -188,7 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				10574FC62AFDB744004F01C1 /* AppFieldEdit */,
-				105A83DD2AF9C38200A625B7 /* FancyAnnouncement */,
 				105A83DA2AF9AA1300A625B7 /* AdhocRowInsertion */,
 			);
 			path = CustomGuideBlocks;
@@ -200,15 +195,6 @@
 				105A83DB2AF9AA3600A625B7 /* AdhocRowInsertion.swift */,
 			);
 			path = AdhocRowInsertion;
-			sourceTree = "<group>";
-		};
-		105A83DD2AF9C38200A625B7 /* FancyAnnouncement */ = {
-			isa = PBXGroup;
-			children = (
-				105A83DE2AF9C39400A625B7 /* FancyAnnouncementGuide.swift */,
-				105A83E02AF9C44700A625B7 /* FancyAnnouncementGuideView.swift */,
-			);
-			path = FancyAnnouncement;
 			sourceTree = "<group>";
 		};
 		106EBB782A1EEE60003AEA2D /* Components */ = {
@@ -527,7 +513,6 @@
 				75E0628F1F0A6D4500B366EC /* AirbnbMapItemCell.swift in Sources */,
 				84055D0B2941CAD7005903A0 /* LocationItem.swift in Sources */,
 				106EBBBA2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift in Sources */,
-				105A83DF2AF9C39400A625B7 /* FancyAnnouncementGuide.swift in Sources */,
 				756034961E75B74A00B78E00 /* String.swift in Sources */,
 				7560348E1E755B9A00B78E00 /* UIImage.swift in Sources */,
 				84055D0D2941D21F005903A0 /* LocationCell.swift in Sources */,
@@ -542,7 +527,6 @@
 				75069EE11E923C34009BFC12 /* BaseCollectionCell.swift in Sources */,
 				106EBBA32A1EEEDD003AEA2D /* AirbnbCounter.swift in Sources */,
 				756034891E7337BE00B78E00 /* AirbnbExploreController.swift in Sources */,
-				105A83E12AF9C44700A625B7 /* FancyAnnouncementGuideView.swift in Sources */,
 				756034871E70753B00B78E00 /* UIColor.swift in Sources */,
 				106EBBB02A1EEEDD003AEA2D /* AirbnbDatePickerFooter.swift in Sources */,
 				756034801E6DCCE900B78E00 /* AirbnbContentCategory.swift in Sources */,
