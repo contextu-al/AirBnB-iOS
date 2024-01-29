@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1032F4C52B2422CF00841BD8 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032F4C32B2422CF00841BD8 /* ConfettiView.swift */; };
-		1032F4C62B2422CF00841BD8 /* ConfettiGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032F4C42B2422CF00841BD8 /* ConfettiGuide.swift */; };
 		1032F4C92B24231100841BD8 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1032F4C82B24231100841BD8 /* ConfettiSwiftUI */; };
 		10574FC82AFDB755004F01C1 /* AppFieldEditGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FC72AFDB755004F01C1 /* AppFieldEditGuide.swift */; };
 		10574FFF2B01AEE0004F01C1 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10574FFE2B01AEE0004F01C1 /* UIImageView.swift */; };
@@ -92,8 +90,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1032F4C32B2422CF00841BD8 /* ConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
-		1032F4C42B2422CF00841BD8 /* ConfettiGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfettiGuide.swift; sourceTree = "<group>"; };
 		10574FC72AFDB755004F01C1 /* AppFieldEditGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFieldEditGuide.swift; sourceTree = "<group>"; };
 		10574FFE2B01AEE0004F01C1 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		105A83DB2AF9AA3600A625B7 /* AdhocRowInsertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdhocRowInsertion.swift; sourceTree = "<group>"; };
@@ -180,15 +176,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1032F4C22B2422CF00841BD8 /* Confetti */ = {
-			isa = PBXGroup;
-			children = (
-				1032F4C32B2422CF00841BD8 /* ConfettiView.swift */,
-				1032F4C42B2422CF00841BD8 /* ConfettiGuide.swift */,
-			);
-			path = Confetti;
-			sourceTree = "<group>";
-		};
 		10574FC62AFDB744004F01C1 /* AppFieldEdit */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				10574FC62AFDB744004F01C1 /* AppFieldEdit */,
-				1032F4C22B2422CF00841BD8 /* Confetti */,
 				105A83DD2AF9C38200A625B7 /* FancyAnnouncement */,
 				105A83DA2AF9AA1300A625B7 /* AdhocRowInsertion */,
 			);
@@ -541,13 +527,11 @@
 				75E0628F1F0A6D4500B366EC /* AirbnbMapItemCell.swift in Sources */,
 				84055D0B2941CAD7005903A0 /* LocationItem.swift in Sources */,
 				106EBBBA2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift in Sources */,
-				1032F4C52B2422CF00841BD8 /* ConfettiView.swift in Sources */,
 				105A83DF2AF9C39400A625B7 /* FancyAnnouncementGuide.swift in Sources */,
 				756034961E75B74A00B78E00 /* String.swift in Sources */,
 				7560348E1E755B9A00B78E00 /* UIImage.swift in Sources */,
 				84055D0D2941D21F005903A0 /* LocationCell.swift in Sources */,
 				75497C341E9FA9AF00F1B4E6 /* AirbnbReview.swift in Sources */,
-				1032F4C62B2422CF00841BD8 /* ConfettiGuide.swift in Sources */,
 				750233761E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift in Sources */,
 				75069EE31E923C8A009BFC12 /* AirbnbHomeItemCell.swift in Sources */,
 				106EBBB52A1EEEDD003AEA2D /* Utility.swift in Sources */,
