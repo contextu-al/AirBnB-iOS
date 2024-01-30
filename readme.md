@@ -19,65 +19,20 @@ Like something Contextual doesn’t offer in our Standard Components? Contextual
 
 In this example, we show how to make a Fancy Announcement, just like the crazy ones your Designer comes up with 🤣. Its a simple example to get you started with Contextual Extensibility without needing to hard-code your changes every time you want to update the tip.
 
-1. Create an account at [Contextual Dashboard](https://dashboard.contextu.al/ "Contextual Dashboard").
-2. Install the Contextual SDK following the instructions for IOS or Android.
-3. Add the sample wrapper code  *FancyAnnouncement* to your App. 
-4. Copy-Paste the instantiation of the Guide Component AFTER the Contextual SDK registration. 
-5. Build your App and Run it on a phone or 
-6. Go to the Dashboard and create a guide:
- * Use this [video]( https://vimeo.com/863886653#t=0m58s "Another Guide Creation How-to") to see the steps
- * choose “Display the guides on any screen of your app” and 
- * pick one of the “Standard” Contextual Announcement Templates.
- * Preview the Announcement on your Phone - it should look similar to the template
-7. Now go to the Extensibility section in the sidebar and paste in the JSON as follows:
-`
-{
-  "guideBlockKey": "FancyAnnouncement"
-}
-`
- * Match the name in the JSON to the name of your wrapper in the code
-
- <img src="./airbnb-main/img/FancyAnnouncementTree.png" alt="Adding your Extra JSON" width="200"/>
-
-8. If you are still in Preview Mode, then you should see the Announcement will magically change to Fancy Announcement
-9. Change the Title and Content and buttons. Play around with it and see the results.
-10. Save the guide and show to your Product Team, once you release this version of the App they can launch Fancy Announcement to whoever they want, whenever they want.
+To use in your App, [follow the instructions at](https://github.com/GuideBlocks-org/iOS-GuideBlocks/blob/confetti/Sources/iOS-GuideBlocks/FancyAnnouncement/README.md)
 
  
 
-## List Row Insertion
+## List Row Insertion (AdhocRowInsertion)
 
-The Apps' existing code can be now orchestrated for Product Team to make use of. This powerful but simple example shows how you can add engagement for promotional content in existing app lists without cluttering screen realestate. Do engagemet just like Twitter or Facebook does and no need for Appstore releases! (after the initial low code work is done)
+The Apps' existing code can be now orchestrated for Product Team to make use of. This powerful but simple example shows how you can add engagement for promotional content in existing app lists without cluttering screen realestate. Do engagement just like Twitter or Facebook does and no need for Appstore releases! (after the initial low code work is done)
 
 This example illustrates how you can extend your existing lists with engagement messaging, inline. Your App developer can add this and with a few lines of code extend your application so that a new row can be targeted to specific users with promotional or explanatory content entered from the Contextual Dashboard - no code!
 
-This row example is based on a standard Contextual Announcement template. The steps are:
-1. Create an account at [Contextual Dashboard](https://dashboard.contextu.al/ "Contextual Dashboard").
-2. Install the Contextual SDK following the instructions for IOS or Android.
-3. Your developer:
- *  adds your existing row content creation to this source code example.
- * Add the sample wrapper code for example, *AdhocRowInsertion*
-4. In the Dashboard, create or edit a Guide.
-5. Choose an Announcement Template that best shows the design of a row in your app. For example, do you have Titles, Content, Pictures.
-6. Copy-Paste the instantiation of the Guide Component AFTER the Contextual SDK registration. 
- * Now go to the Extensibility section in the sidebar and paste in the JSON as follows:
+To use in your App, [follow the instructions at](https://github.com/contextu-al/AirBnB-iOS/blob/main/airbnb-main/airbnb-main/Components/CustomGuideBlocks/AdhocRowInsertion/README.md)
 
- `
- {
-  "guideBlockKey": "AdhocRowInsertion",
-  "position": 1,
-  "cellID": "customCellID",
-  "rowHeight": 300,
-  "name": "Feature"
-}
-`
 
-7. In the sidebar under the relevent sections: Edit the title, content, image location (upload images etc)
-8. Save the guide and show to your Product Team, once you release this version of the App they can launch List Row Insertion to whoever they want, whenever they want.
-
- <img src="./airbnb-main/img/Inline-Feature-Announcement.gif" alt="Adding your Extra JSON" width="200"/>
-
- ## Multiple Choice Survey 
+## Multiple Choice Survey (MultiSelectSurvey)
 
 This is a terrific example about how complex or very custom use-cases can be deployed and easily used by your Product Team. Its the best of Code and No-code combined! Extend your Apps capabilities once, THEN
 
@@ -85,25 +40,11 @@ This is a terrific example about how complex or very custom use-cases can be dep
 * to specific users and
 * measure results.
 
-1. Create an account at [Contextual Dashboard](https://dashboard.contextu.al/ "Contextual Dashboard").
-2. Repeat the steps 1-5 above. In the code for the wrapper make it's name *MultipleChoiceCustom*
+To use in your App, [follow the instructions at](https://github.com/GuideBlocks-org/iOS-GuideBlocks/blob/main/Sources/iOS-GuideBlocks//MultiSelectSurvey/README.md)
 
-`
-{
-  "guideBlockKey": "MultipleChoiceCustom"
-}
-`
 
-<img src="./airbnb-main/img/Popup-Survey.gif" alt="Adding your Extra JSON" width="200"/>
+## AppFieldEdit
 
-3.  In the sidebar under the relevent sections:
- * Edit the title, content
- * Change the Question and the Answer options
-4. Save the guide and show to your Product Team, once you release this version of the App they can launch Multiple Choice Survey to whoever they want, whenever they want.
-
-<img src="./airbnb-main/img/Popup-Survey-Questions.png" alt="Adding your Extra JSON" width="200"/>
-
-## Multiple Choice Survey as a List Row Insertion
-Another example is a combination of the survey and a List Row insertion. Try it out, it should/could look like this:
-
-<img src="./airbnb-main/img/Inline-Survey.gif" alt="Adding your Extra JSON" width="200"/>
+Controlling an editable field as a GuideBlock
+ 
+To use in your App, [follow the instructions at](https://github.com/contextu-al/AirBnB-iOS/blob/main/airbnb-main/airbnb-main/Components/CustomGuideBlocks/AppFieldEdit/README.md)
