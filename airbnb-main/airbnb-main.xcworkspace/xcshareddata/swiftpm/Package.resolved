@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GuideBlocks-org/iOS-GuideBlocks",
       "state" : {
-        "branch" : "confetti",
-        "revision" : "a10016754391fcd42dc9a2f9fa5281bf1cd8cd50"
+        "branch" : "main",
+        "revision" : "4ff9cacf04258df974dea7cd8a681f0f98afd838"
       }
     }
   ],
