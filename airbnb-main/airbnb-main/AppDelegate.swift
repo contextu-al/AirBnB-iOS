@@ -10,6 +10,7 @@ import UIKit
 import AppCenter
 import AppCenterDistribute
 import ContextualSDK
+import iOS_GuideBlocks
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -35,9 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          */
         self.registerContextual()
         
-        // Override point for customization after application launch.
-        UIApplication.shared.statusBarStyle = .lightContent
-        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = AirbnbMainController()        
         window?.makeKeyAndVisible()
@@ -48,6 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let appKey = "swift_airbnb_dj"
 
         
+<<<<<<< HEAD
         /**
          Registers a guide block for a given key in the Contextual framework.
 
@@ -65,6 +64,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
              `Contextual.sharedInstance()`
          */
         Contextual.sharedInstance().registerGuideBlock(MultipleChoiceGuideController(), forKey: "MultipleChoiceCustom")
+=======
+        Contextual.sharedInstance().registerGuideBlock(MultiSelectSurveyGuideController(), forKey: "MultiSelectSurvey")
+>>>>>>> main
         Contextual.sharedInstance().registerGuideBlock(AdhocRowInsertion(), forKey: "AdhocRowInsertion")
         Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "FancyAnnouncement")
         Contextual.sharedInstance().registerGuideBlock(AppFieldEditGuide.sharedInstance, forKey: "AppFieldEdit")
@@ -75,6 +77,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerInstall(forApp: appKey,
                                                     withDebugMode: true) {
             let createdTime = ctxFormatDate(Date())
+<<<<<<< HEAD
             /**
              Calls the `tagUserId` method of the `Contextual` singleton instance to tag the user ID.
 
@@ -85,6 +88,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     This allows for the user to be identified across multiple devices and also for the Contextual REST API to update 
                     from your backend with the user ID. (refer to the tag sh_cuid in the Contextual REST API documentation)
              */
+=======
+>>>>>>> main
             Contextual.sharedInstance().tagUserId("airbnb-demo \(createdTime ?? "")")
         }
     }              
@@ -110,7 +115,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
-

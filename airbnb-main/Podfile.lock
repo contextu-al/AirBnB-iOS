@@ -9,29 +9,29 @@ PODS:
     - AppCenter/Core
   - AppCenter/Distribute (5.0.4):
     - AppCenter/Core
+<<<<<<< HEAD
   - Contextual (3.0.1):
     - paper-onboarding-pointzi
   - paper-onboarding-pointzi (2.0.6)
+=======
+>>>>>>> main
 
 DEPENDENCIES:
   - AppCenter
   - AppCenter/Distribute
-  - Contextual (from `https://repo.contextu.al/artifactory/contextual/ios/podspec/dev/Contextual.podspec`)
 
 SPEC REPOS:
   trunk:
     - AppCenter
-    - paper-onboarding-pointzi
-
-EXTERNAL SOURCES:
-  Contextual:
-    :podspec: https://repo.contextu.al/artifactory/contextual/ios/podspec/dev/Contextual.podspec
 
 SPEC CHECKSUMS:
   AppCenter: 85c92db0759d2792a65eb61d6842d2e86611a49a
+<<<<<<< HEAD
   Contextual: b2a16c1ce7b4f2eabea6862081d59532a7b79269
   paper-onboarding-pointzi: 1349b198730213573a6171898dbbfb57dd581393
+=======
+>>>>>>> main
 
-PODFILE CHECKSUM: 99dc7768f0f5edfc7e4c88b7fc1fdbc1c155321a
+PODFILE CHECKSUM: 245541ebd695fe5c56628942025d6edfeaa566d6
 
 COCOAPODS: 1.14.3

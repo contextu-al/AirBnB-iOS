@@ -8,9 +8,6 @@ install! 'cocoapods',
   :warn_for_unused_master_specs_repo => false
 
 target 'airbnb-main' do
-  # Pods for airbnb-main
-  pod "Contextual", podspec:"https://repo.contextu.al/artifactory/contextual/ios/podspec/dev/Contextual.podspec"
-
   pod 'AppCenter'
   pod 'AppCenter/Distribute'
 end
