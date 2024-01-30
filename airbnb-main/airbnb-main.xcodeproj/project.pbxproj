@@ -71,8 +71,6 @@
 		84055D0D2941D21F005903A0 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84055D0C2941D21F005903A0 /* LocationCell.swift */; };
 		84A0F649289BC8AF002E01AD /* AirbnbExploreExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F648289BC8AF002E01AD /* AirbnbExploreExperienceController.swift */; };
 		84A0F64B289BC8F9002E01AD /* AirbnbExplorePlacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F64A289BC8F9002E01AD /* AirbnbExplorePlacesController.swift */; };
-		DCE383B72B26E5DE00D26539 /* CircleVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE383B62B26E5DE00D26539 /* CircleVideoView.swift */; };
-		DCE383B92B26E8EF00D26539 /* CircleVideoGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE383B82B26E8EF00D26539 /* CircleVideoGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -157,8 +155,6 @@
 		84055D0C2941D21F005903A0 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		84A0F648289BC8AF002E01AD /* AirbnbExploreExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbExploreExperienceController.swift; sourceTree = "<group>"; };
 		84A0F64A289BC8F9002E01AD /* AirbnbExplorePlacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbExplorePlacesController.swift; sourceTree = "<group>"; };
-		DCE383B62B26E5DE00D26539 /* CircleVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleVideoView.swift; sourceTree = "<group>"; };
-		DCE383B82B26E8EF00D26539 /* CircleVideoGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleVideoGuide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +181,6 @@
 		105A83BE2AF9A94300A625B7 /* CustomGuideBlocks */ = {
 			isa = PBXGroup;
 			children = (
-				DCE383B52B26E5A600D26539 /* CircleVideo */,
 				10574FC62AFDB744004F01C1 /* AppFieldEdit */,
 				105A83DA2AF9AA1300A625B7 /* AdhocRowInsertion */,
 			);
@@ -361,15 +356,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		DCE383B52B26E5A600D26539 /* CircleVideo */ = {
-			isa = PBXGroup;
-			children = (
-				DCE383B62B26E5DE00D26539 /* CircleVideoView.swift */,
-				DCE383B82B26E8EF00D26539 /* CircleVideoGuide.swift */,
-			);
-			path = CircleVideo;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -503,7 +489,6 @@
 				756034901E7582A100B78E00 /* AirbnbExploreFeedController.swift in Sources */,
 				84A0F649289BC8AF002E01AD /* AirbnbExploreExperienceController.swift in Sources */,
 				106EBBB42A1EEEDD003AEA2D /* AirbnbDatePickerViewController.swift in Sources */,
-				DCE383B72B26E5DE00D26539 /* CircleVideoView.swift in Sources */,
 				75497C381EA154DC00F1B4E6 /* AirbnbIconLabel.swift in Sources */,
 				756034981E76E81100B78E00 /* BaseTableController.swift in Sources */,
 				75497C281E9BBF0700F1B4E6 /* AirbnbHomeDetailController.swift in Sources */,
@@ -518,7 +503,6 @@
 				7560347E1E6DCB3D00B78E00 /* AirbnbContentThumbnail.swift in Sources */,
 				84055D092941CAB6005903A0 /* LocationDataManager.swift in Sources */,
 				756034921E75B33F00B78E00 /* BasePageTabItemView.swift in Sources */,
-				DCE383B92B26E8EF00D26539 /* CircleVideoGuide.swift in Sources */,
 				84055D052941B5BA005903A0 /* AirbnbLocationController.swift in Sources */,
 				106EBBA42A1EEEDD003AEA2D /* AirbnbSwitch.swift in Sources */,
 				106EBBB62A1EEEDD003AEA2D /* BaseCell.swift in Sources */,

@@ -44,29 +44,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     private func registerContextual() {
         let appKey = "swift_airbnb_dj"
-
         
-<<<<<<< HEAD
-        /**
-         Registers a guide block for a given key in the Contextual framework.
-
-         - Parameters:
-             - guideBlock: The guide block to be registered.
-             - key: The key associated with the guide block.
-
-         - Note:
-             The guide block will be used by the Contextual framework to provide contextual guidance to the user.
-
-         - Warning:
-             Make sure to provide a unique key for each guide block to avoid conflicts.
-
-         - SeeAlso:
-             `Contextual.sharedInstance()`
-         */
-        Contextual.sharedInstance().registerGuideBlock(MultipleChoiceGuideController(), forKey: "MultipleChoiceCustom")
-=======
         Contextual.sharedInstance().registerGuideBlock(MultiSelectSurveyGuideController(), forKey: "MultiSelectSurvey")
->>>>>>> main
         Contextual.sharedInstance().registerGuideBlock(AdhocRowInsertion(), forKey: "AdhocRowInsertion")
         Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "FancyAnnouncement")
         Contextual.sharedInstance().registerGuideBlock(AppFieldEditGuide.sharedInstance, forKey: "AppFieldEdit")
@@ -77,22 +56,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerInstall(forApp: appKey,
                                                     withDebugMode: true) {
             let createdTime = ctxFormatDate(Date())
-<<<<<<< HEAD
-            /**
-             Calls the `tagUserId` method of the `Contextual` singleton instance to tag the user ID.
-
-             - Parameters:
-                 - userId: The user ID to be tagged.
-
-             - Note: The `tagUserId` method is used to associate a user ID with the current device "install" in the Contextual framework.
-                    This allows for the user to be identified across multiple devices and also for the Contextual REST API to update 
-                    from your backend with the user ID. (refer to the tag sh_cuid in the Contextual REST API documentation)
-             */
-=======
->>>>>>> main
             Contextual.sharedInstance().tagUserId("airbnb-demo \(createdTime ?? "")")
         }
-    }              
+    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
