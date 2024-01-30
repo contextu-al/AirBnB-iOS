@@ -15,7 +15,7 @@ Like something Contextual doesn’t offer in our Standard Components? Contextual
 ## Fancy Announcement
 
 <table>
-<tr><td?
+<tr><td>
 In this example, we show how to make a Fancy Announcement, just like the crazy ones your Designer comes up with 🤣. Its a simple example to get you started with Contextual Extensibility without needing to hard-code your changes every time you want to update the tip.
 
 To use in your App, [follow the instructions at](https://github.com/GuideBlocks-org/iOS-GuideBlocks/blob/confetti/Sources/iOS-GuideBlocks/FancyAnnouncement/README.md)
