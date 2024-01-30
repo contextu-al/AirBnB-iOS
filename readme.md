@@ -20,7 +20,7 @@ In this example, we show how to make a Fancy Announcement, just like the crazy o
 
 To use in your App, [follow the instructions at](https://github.com/GuideBlocks-org/iOS-GuideBlocks/blob/confetti/Sources/iOS-GuideBlocks/FancyAnnouncement/README.md)
 </td>
-<td>
+<td style="width:30%">
 <img src="./airbnb-main/img/FancyAnnouncementTree.png" alt="Adding your Extra JSON" width="200"/>
 </td>
 </tr></table>
