@@ -14,9 +14,16 @@ Like something Contextual doesn’t offer in our Standard Components? Contextual
 
 ## Fancy Announcement
 
+<table>
+<tr><td?
 In this example, we show how to make a Fancy Announcement, just like the crazy ones your Designer comes up with 🤣. Its a simple example to get you started with Contextual Extensibility without needing to hard-code your changes every time you want to update the tip.
 
 To use in your App, [follow the instructions at](https://github.com/GuideBlocks-org/iOS-GuideBlocks/blob/confetti/Sources/iOS-GuideBlocks/FancyAnnouncement/README.md)
+</td>
+<td>
+<img src="./airbnb-main/img/FancyAnnouncementTree.png" alt="Adding your Extra JSON" width="200"/>
+</td>
+</tr></table>
 
 ## List Row Insertion (AdhocRowInsertion)
 
@@ -25,7 +32,6 @@ The Apps' existing code can be now orchestrated for Product Team to make use of.
 This example illustrates how you can extend your existing lists with engagement messaging, inline. Your App developer can add this and with a few lines of code extend your application so that a new row can be targeted to specific users with promotional or explanatory content entered from the Contextual Dashboard - no code!
 
 To use in your App, [follow the instructions at](https://github.com/contextu-al/AirBnB-iOS/blob/main/airbnb-main/airbnb-main/Components/CustomGuideBlocks/AdhocRowInsertion/README.md)
-
 
 ## Multiple Choice Survey (MultiSelectSurvey)
 
