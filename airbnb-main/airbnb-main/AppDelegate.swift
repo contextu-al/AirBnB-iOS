@@ -26,6 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             AppCenter.start(withAppSecret: "32ad9f1e-bd99-449b-baed-f87703f9afb8", services: [Distribute.self])
         #endif
         
+        /**
+         Registers the contextual library.
+
+         This method is responsible for registering the Contextual library in the app delegate.
+
+         - Parameter None
+         - Returns: None
+         */
         self.registerContextual()
         
         window = UIWindow(frame: UIScreen.main.bounds)
@@ -42,13 +50,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerGuideBlock(FancyAnnouncementGuide(), forKey: "FancyAnnouncement")
         Contextual.sharedInstance().registerGuideBlock(AppFieldEditGuide.sharedInstance, forKey: "AppFieldEdit")
         Contextual.sharedInstance().registerGuideBlock(ConfettiGuide(), forKey: "Confetti")
+        Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "CircleVideo")
+
         
         Contextual.sharedInstance().registerInstall(forApp: appKey,
                                                     withDebugMode: true) {
             let createdTime = ctxFormatDate(Date())
             Contextual.sharedInstance().tagUserId("airbnb-demo \(createdTime ?? "")")
         }
-    }              
+    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
