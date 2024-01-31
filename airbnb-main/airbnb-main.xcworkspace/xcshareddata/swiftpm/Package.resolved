@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GuideBlocks-org/iOS-GuideBlocks",
       "state" : {
-        "branch" : "circle-video",
-        "revision" : "5cc5caec229d4cff1d8bf143c4f3eb86723485ba"
+        "branch" : "main",
+        "revision" : "dd7fcd6e1dd21dca4cf9ebcbeaa5bd229014772e"
       }
     }
   ],
