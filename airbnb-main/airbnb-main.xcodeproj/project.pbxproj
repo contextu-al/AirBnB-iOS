@@ -822,7 +822,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/GuideBlocks-org/iOS-GuideBlocks";
 			requirement = {
-				branch = "circle-video";
+				branch = main;
 				kind = branch;
 			};
 		};
