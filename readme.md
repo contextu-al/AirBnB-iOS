@@ -26,6 +26,19 @@ To use in your App, [follow the instructions](https://github.com/GuideBlocks-org
 </td>
 </tr></table>
 
+## Confetti
+
+Everyone loves Confetti! This is a simple example to get you started with Contextual Extensibility without needing to hard-code your changes every time you want to celebrate with the user.
+
+To use in your App, follow the instructions [here](https://github.com/GuideBlocks-org/iOS-GuideBlocks/blob/main/Sources/iOS-GuideBlocks/Confetti/README.md)
+
+<img src="./airbnb-main/img/confetti-guideblock.png" alt="IOS Confetti" width="200"/>
+
+<img src="./screenshots/confettiJSON.png" alt="Adding your Extra JSON" width="200"/>
+
+
+
+
 ## List Row Insertion (AdhocRowInsertion)
 
 The Apps' existing code can be now orchestrated for Product Team to make use of. This powerful but simple example shows how you can add engagement for promotional content in existing app lists without cluttering screen realestate. Do engagement just like Twitter or Facebook does and no need for Appstore releases! (after the initial low code work is done)
