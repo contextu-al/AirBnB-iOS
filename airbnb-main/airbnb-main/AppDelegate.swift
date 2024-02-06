@@ -51,6 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerGuideBlock(AppFieldEditGuide.sharedInstance, forKey: "AppFieldEdit")
         Contextual.sharedInstance().registerGuideBlock(ConfettiGuide(), forKey: "Confetti")
         Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "CircleVideo")
+        Contextual.sharedInstance().registerGuideBlock(UIAlertControllerGuide(), forKey: "UIAlertControllerGuide")
 
         
         Contextual.sharedInstance().registerInstall(forApp: appKey,

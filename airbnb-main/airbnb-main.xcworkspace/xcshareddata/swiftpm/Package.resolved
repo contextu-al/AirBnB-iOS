@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GuideBlocks-org/iOS-GuideBlocks",
       "state" : {
-        "branch" : "main",
-        "revision" : "dd7fcd6e1dd21dca4cf9ebcbeaa5bd229014772e"
+        "branch" : "UIAlertController",
+        "revision" : "75fa76b7fc6b1f363eef57ebb839fd27c17c3568"
       }
     }
   ],
