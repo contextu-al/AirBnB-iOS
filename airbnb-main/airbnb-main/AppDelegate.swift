@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import AppCenter
-import AppCenterDistribute
 import ContextualSDK
 import iOS_GuideBlocks
 
@@ -18,13 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        Distribute.updateTrack = .private
-
-        #if DEBUG
-        #else
-            AppCenter.start(withAppSecret: "32ad9f1e-bd99-449b-baed-f87703f9afb8", services: [Distribute.self])
-        #endif
         
         /**
          Registers the contextual library.

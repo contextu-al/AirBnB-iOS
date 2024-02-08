@@ -28,7 +28,6 @@
 		106EBBBC2A1EEEDD003AEA2D /* AirbnbDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB9D2A1EEEDD003AEA2D /* AirbnbDatePickerCell.swift */; };
 		107E9DEF2B6766FD00AE8E17 /* iOS-GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = 107E9DEE2B6766FD00AE8E17 /* iOS-GuideBlocks */; };
 		10B122782AFB512800ED3A97 /* AirbnbCustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B122772AFB512800ED3A97 /* AirbnbCustomTableCell.swift */; };
-		3A46CE88E15E47A0E2053230 /* Pods_airbnb_main.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8CA6D5BD902FA4A8B72DE5 /* Pods_airbnb_main.framework */; };
 		750233761E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750233751E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift */; };
 		750233781E8B625100766F8A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750233771E8B625100766F8A /* Theme.swift */; };
 		7502337A1E8BB7D000766F8A /* AirbnbPageTabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750233791E8BB7D000766F8A /* AirbnbPageTabNavigationView.swift */; };
@@ -108,9 +107,6 @@
 		106EBB9D2A1EEEDD003AEA2D /* AirbnbDatePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirbnbDatePickerCell.swift; sourceTree = "<group>"; };
 		108788952A1EF5FE008FD4E0 /* airbnb-main-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "airbnb-main-Bridging-Header.h"; sourceTree = "<group>"; };
 		10B122772AFB512800ED3A97 /* AirbnbCustomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbCustomTableCell.swift; sourceTree = "<group>"; };
-		12F9A361E1ECDBA7FC374D8F /* Pods-airbnb-main.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airbnb-main.debug.xcconfig"; path = "Target Support Files/Pods-airbnb-main/Pods-airbnb-main.debug.xcconfig"; sourceTree = "<group>"; };
-		19822A310D8DA9B8234F0093 /* Pods-airbnb-main.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airbnb-main.release.xcconfig"; path = "Target Support Files/Pods-airbnb-main/Pods-airbnb-main.release.xcconfig"; sourceTree = "<group>"; };
-		5E8CA6D5BD902FA4A8B72DE5 /* Pods_airbnb_main.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_airbnb_main.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		750233751E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirbnbExploreHeaderView.swift; sourceTree = "<group>"; };
 		750233771E8B625100766F8A /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		750233791E8BB7D000766F8A /* AirbnbPageTabNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirbnbPageTabNavigationView.swift; sourceTree = "<group>"; };
@@ -162,7 +158,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A46CE88E15E47A0E2053230 /* Pods_airbnb_main.framework in Frameworks */,
 				107E9DEF2B6766FD00AE8E17 /* iOS-GuideBlocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,21 +230,11 @@
 			path = DatePicker;
 			sourceTree = "<group>";
 		};
-		425A0DAB6A75A4FF73D61C02 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E8CA6D5BD902FA4A8B72DE5 /* Pods_airbnb_main.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		756033E71E69AB6C00B78E00 = {
 			isa = PBXGroup;
 			children = (
 				756033F21E69AB6C00B78E00 /* airbnb-main */,
 				756033F11E69AB6C00B78E00 /* Products */,
-				8CD8A61ED21025E043851AB9 /* Pods */,
-				425A0DAB6A75A4FF73D61C02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -347,15 +332,6 @@
 			name = Extension;
 			sourceTree = "<group>";
 		};
-		8CD8A61ED21025E043851AB9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				12F9A361E1ECDBA7FC374D8F /* Pods-airbnb-main.debug.xcconfig */,
-				19822A310D8DA9B8234F0093 /* Pods-airbnb-main.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -363,12 +339,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 756034021E69AB6C00B78E00 /* Build configuration list for PBXNativeTarget "airbnb-main" */;
 			buildPhases = (
-				AFEF396177B2D8607CEE7C00 /* [CP] Check Pods Manifest.lock */,
 				756033EC1E69AB6C00B78E00 /* Sources */,
 				756033ED1E69AB6C00B78E00 /* Frameworks */,
 				756033EE1E69AB6C00B78E00 /* Resources */,
 				756034521E6C45C500B78E00 /* Embed Frameworks */,
-				B32EEAB650FB97DF8177DBEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -437,49 +411,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		AFEF396177B2D8607CEE7C00 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-airbnb-main-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B32EEAB650FB97DF8177DBEF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-airbnb-main/Pods-airbnb-main-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterDistributeResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppCenterDistributeResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-airbnb-main/Pods-airbnb-main-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		756033EC1E69AB6C00B78E00 /* Sources */ = {
@@ -681,7 +612,6 @@
 		};
 		756034031E69AB6C00B78E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12F9A361E1ECDBA7FC374D8F /* Pods-airbnb-main.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -705,14 +635,6 @@
 					"-l\"c++\"",
 					"-l\"sqlite3\"",
 					"-l\"z\"",
-					"-framework",
-					"\"AppCenter\"",
-					"-framework",
-					"\"AppCenterAnalytics\"",
-					"-framework",
-					"\"AppCenterCrashes\"",
-					"-framework",
-					"\"AppCenterDistribute\"",
 					"-framework",
 					"\"CoreTelephony\"",
 					"-framework",
@@ -739,7 +661,6 @@
 		};
 		756034041E69AB6C00B78E00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19822A310D8DA9B8234F0093 /* Pods-airbnb-main.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -763,14 +684,6 @@
 					"-l\"c++\"",
 					"-l\"sqlite3\"",
 					"-l\"z\"",
-					"-framework",
-					"\"AppCenter\"",
-					"-framework",
-					"\"AppCenterAnalytics\"",
-					"-framework",
-					"\"AppCenterCrashes\"",
-					"-framework",
-					"\"AppCenterDistribute\"",
 					"-framework",
 					"\"CoreTelephony\"",
 					"-framework",
