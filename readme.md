@@ -34,7 +34,7 @@ To use in your App, follow the instructions [here](https://github.com/GuideBlock
 
 <img src="./airbnb-main/img/confetti-guideblock.png" alt="IOS Confetti" width="200"/>
 
-<img src="./screenshots/confettiJSON.png" alt="Adding your Extra JSON" width="200"/>
+<img src="./airbnb-main/img/confettiJSON.png" alt="Adding your Extra JSON" width="200"/>
 
 
 
