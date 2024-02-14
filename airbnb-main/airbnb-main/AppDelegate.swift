@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerGuideBlock(ConfettiGuide(), forKey: "Confetti")
         Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "CircleVideo")
 
-        Contextual.sharedInstance().registerGuideBlock(MyChecklistGuide(), forKey: "MyChecklist")
+        Contextual.sharedInstance().registerGuideBlock(OpenChecklistGuide(), forKey: "OpenChecklist")
         
         Contextual.sharedInstance().registerInstall(forApp: appKey,
                                                     withDebugMode: true) {
