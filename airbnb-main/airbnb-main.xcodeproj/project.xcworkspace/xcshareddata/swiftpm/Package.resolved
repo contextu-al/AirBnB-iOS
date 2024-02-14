@@ -21,10 +21,10 @@
     {
       "identity" : "ios-guideblocks",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/GuideBlocks-org/iOS-GuideBlocks",
+      "location" : "https://github.com/amraboelela/iOS-GuideBlocks.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "dd7fcd6e1dd21dca4cf9ebcbeaa5bd229014772e"
+        "branch" : "checklist",
+        "revision" : "3caa04cba19d7555b5352bdc89c651b524e0b02b"
       }
     }
   ],

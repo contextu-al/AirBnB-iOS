@@ -2,13 +2,13 @@
 //  AppDelegate.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 3/3/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Created by Yonas Stephen on 2017/3/3.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit
 import ContextualSDK
-import iOS_GuideBlocks
+import GuideBlocks
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func registerContextual() {
-        let appKey = "swift_airbnb_dj"
+        let appKey = "Amr_Test8988589"
         
         Contextual.sharedInstance().registerGuideBlock(MultiSelectSurveyGuideController(), forKey: "MultiSelectSurvey")
         Contextual.sharedInstance().registerGuideBlock(AdhocRowInsertion(), forKey: "AdhocRowInsertion")
@@ -43,6 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerGuideBlock(ConfettiGuide(), forKey: "Confetti")
         Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "CircleVideo")
 
+        Contextual.sharedInstance().registerGuideBlock(MyChecklistGuide(), forKey: "MyChecklist")
         
         Contextual.sharedInstance().registerInstall(forApp: appKey,
                                                     withDebugMode: true) {
@@ -51,6 +52,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if url.scheme == "airbnbContextual" {
+            print("got deeplink url: \(url)")
+            if let airbnbMainController = window?.rootViewController as? AirbnbMainController {
+                if airbnbMainController.handle(deepLink: url.absoluteString) {
+                    print("deepLink handled successfully")
+                } else {
+                    print("deepLink failed to be handled")
+                }
+            }
+        }
+        return true
+    }
+
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

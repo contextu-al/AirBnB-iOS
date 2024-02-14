@@ -2,8 +2,8 @@
 //  AirbnbMainController.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 3/3/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Created by Yonas Stephen on 2017/3/3.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit
@@ -127,6 +127,38 @@ class AirbnbMainController: UITabBarController {
         
         UITabBarItem.appearance().setTitleTextAttributes(tabBarTextAttributesNormal, for: .normal)
         UITabBarItem.appearance().setTitleTextAttributes(tabBarTextAttributesSelected, for: .selected)
+    }
+    
+    // Returns true if successful
+    func handle(deepLink: String) -> Bool {
+        let (screenType, screenName) = deepLink.lastTwoTokens()
+        if screenType == "tab", let screenName {
+            switch screenName {
+            case "saved":
+                if let index = viewControllers?.firstIndex(of: savedController) {
+                    selectedIndex = index
+                    return true
+                }
+            case "trips":
+                if let index = viewControllers?.firstIndex(of: tripsController) {
+                    selectedIndex = index
+                    return true
+                }
+            case "inbox":
+                if let index = viewControllers?.firstIndex(of: inboxController) {
+                    selectedIndex = index
+                    return true
+                }
+            case "profile":
+                if let index = viewControllers?.firstIndex(of: profileController) {
+                    selectedIndex = index
+                    return true
+                }
+            default:
+                print("screenName: \(screenName) is not recognized in deepLink: \(deepLink)")
+            }
+        }
+        return false
     }
     
 }
