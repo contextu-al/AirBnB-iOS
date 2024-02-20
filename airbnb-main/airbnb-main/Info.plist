@@ -44,11 +44,11 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
-
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>airbnbContextual</string>
-    </array>
-
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>airbnbContextual</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Need access to Camera to read QR Code</string>
 </dict>
 </plist>

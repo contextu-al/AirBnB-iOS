@@ -44,9 +44,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "CircleVideo")
 
         Contextual.sharedInstance().registerGuideBlock(OpenChecklistGuide(), forKey: "OpenChecklist")
+        Contextual.sharedInstance().registerGuideBlock(QRCodeGuide(), forKey: "QRCode")
         
-        Contextual.sharedInstance().registerInstall(forApp: appKey,
-                                                    withDebugMode: true) {
+        Contextual.sharedInstance().registerInstall(
+            forApp: appKey,
+            withDebugMode: true
+        ) {
             let createdTime = ctxFormatDate(Date())
             Contextual.sharedInstance().tagUserId("airbnb-demo \(createdTime ?? "")")
         }
@@ -66,7 +69,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
