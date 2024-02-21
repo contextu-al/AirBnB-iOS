@@ -3,7 +3,7 @@
 //  padstaview
 //
 //  Created by Yonas Stephen on 11/10/16.
-//  Copyright © 2016 Yonas Stephen. All rights reserved.
+//  Copyright © 2016 Contextual..
 //
 
 import UIKit

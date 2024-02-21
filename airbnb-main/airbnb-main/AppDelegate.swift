@@ -44,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "CircleVideo")
 
         Contextual.sharedInstance().registerGuideBlock(OpenChecklistGuide(), forKey: "OpenChecklist")
-        Contextual.sharedInstance().registerGuideBlock(QRCodeGuide(), forKey: "QRCode")
+        Contextual.sharedInstance().registerGuideBlock(qrCodeGuideController.qrCodeGuide, forKey: "QRCode")
         
         Contextual.sharedInstance().registerInstall(
             forApp: appKey,

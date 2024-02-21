@@ -3,7 +3,7 @@
 //  airbnb-occupant-filter
 //
 //  Created by Yonas Stephen on 4/4/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Copyright © 2017 Contextual..
 //
 
 import UIKit

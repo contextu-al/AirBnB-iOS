@@ -3,7 +3,7 @@
 //  airbnb-main
 //
 //  Created by Yonas Stephen on 13/4/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Copyright © 2017 Contextual..
 //
 
 import UIKit
