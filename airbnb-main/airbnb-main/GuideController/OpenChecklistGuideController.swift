@@ -14,8 +14,8 @@ class OpenChecklistGuideController {
     var openChecklistGuide = OpenChecklistGuide()
     
     init() {
-        openChecklistGuide.tasksCompletedCallback = {
-            print("OpenChecklistGuideController, openChecklistGuide.tasksCompletedCallback")
+        openChecklistGuide.completedCallback = {
+            print("OpenChecklistGuideController, openChecklistGuide.completedCallback")
         }
     }
 }
