@@ -2,8 +2,8 @@
 //  AirbnbDatePickerCell.swift
 //  airbnb-datepicker
 //
-//  Created by Yonas Stephen on 23/2/17.
-//  Copyright © 2017 Contextual..
+//  Created by Yonas Stephen on 2017/2/23.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  AirbnbHomeDetailController.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 10/4/17.
-//  Copyright © 2017 Contextual..
+//  Created by Yonas Stephen on 2017/4/10.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  AirbnbHomeItemTableCell.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 7/4/17.
-//  Copyright © 2017 Contextual..
+//  Created by Yonas Stephen on 2017/4/7.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

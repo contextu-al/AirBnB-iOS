@@ -2,8 +2,8 @@
 //  BaseCell.swift
 //  padstaview
 //
-//  Created by Yonas Stephen on 11/10/16.
-//  Copyright © 2016 Contextual..
+//  Created by Yonas Stephen on 2016/10/11.
+//  Copyright © 2016 Contextual.
 //
 
 import UIKit

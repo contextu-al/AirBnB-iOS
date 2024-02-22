@@ -2,8 +2,8 @@
 //  AirbnbStar.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 14/4/17.
-//  Copyright © 2017 Contextual..
+//  Created by Yonas Stephen on 2017/4/14.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

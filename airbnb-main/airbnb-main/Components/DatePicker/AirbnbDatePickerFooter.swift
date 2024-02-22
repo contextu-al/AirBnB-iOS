@@ -2,8 +2,8 @@
 //  AirbnbDatePickerFooter.swift
 //  airbnb-datepicker
 //
-//  Created by Yonas Stephen on 24/2/17.
-//  Copyright © 2017 Contextual..
+//  Created by Yonas Stephen on 2017/2/24.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

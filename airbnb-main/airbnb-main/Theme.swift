@@ -2,8 +2,8 @@
 //  Theme.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 29/3/17.
-//  Copyright © 2017 Contextual..
+//  Created by Yonas Stephen on 2017/3/29.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  AppFieldEditGuide.swift
 //  airbnb-main
 //
-//  Created by Marc Stroebel on 10/11/2023.
-//  Copyright © 2023 Contextual. All rights reserved.
+//  Created by Marc Stroebel on 2023/11/10.
+//  Copyright © 2023 Contextual.
 //
 
 import SwiftUI

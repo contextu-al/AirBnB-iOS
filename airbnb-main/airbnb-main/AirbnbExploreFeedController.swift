@@ -2,8 +2,8 @@
 //  AirbnbExploreFeedController.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 12/3/17.
-//  Copyright © 2017 Contextual..
+//  Created by Yonas Stephen on 2017/3/12.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

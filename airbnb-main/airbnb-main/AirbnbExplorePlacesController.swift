@@ -2,8 +2,8 @@
 //  AirbnbExplorePlacesController.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 23/3/17.
-//  Copyright © 2017 Contextual..
+//  Created by Yonas Stephen on 2017/3/23.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit
