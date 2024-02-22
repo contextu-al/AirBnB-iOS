@@ -6,8 +6,6 @@
 //  Copyright © 2024 Contextual.
 //
 
-import ContextualSDK
-import Foundation
 import GuideBlocks
 
 let qrCodeGuideController = QRCodeGuideController()

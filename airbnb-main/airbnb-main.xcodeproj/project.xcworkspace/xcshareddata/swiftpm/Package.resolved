@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/amraboelela/iOS-GuideBlocks.git",
       "state" : {
-        "branch" : "qrcode",
-        "revision" : "9ad9a3d27fc8b06f5f26e5a3c428156cda4c63db"
+        "branch" : "checklist",
+        "revision" : "08b333f4a6d21bdcc31b42d9c79bd82bb73d1993"
       }
     }
   ],
