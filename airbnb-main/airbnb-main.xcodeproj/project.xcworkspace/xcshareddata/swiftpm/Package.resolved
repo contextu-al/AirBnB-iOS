@@ -1,15 +1,6 @@
 {
   "pins" : [
     {
-      "identity" : "codescanner",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/twostraws/CodeScanner",
-      "state" : {
-        "branch" : "main",
-        "revision" : "bf5d7087015620b250ee6c865b3c9039fc159d1a"
-      }
-    },
-    {
       "identity" : "confettiswiftui",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/simibac/ConfettiSwiftUI",
@@ -30,10 +21,10 @@
     {
       "identity" : "ios-guideblocks",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/amraboelela/iOS-GuideBlocks.git",
+      "location" : "https://github.com/GuideBlocks-org/iOS-GuideBlocks",
       "state" : {
-        "branch" : "checklist",
-        "revision" : "0ead613bcf3326306a717bbf3c9e4436b5008190"
+        "branch" : "main",
+        "revision" : "a2e57a394fa9e83942a7d57b3a9959637d8783c4"
       }
     }
   ],
