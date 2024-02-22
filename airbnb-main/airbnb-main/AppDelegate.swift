@@ -8,7 +8,7 @@
 
 import UIKit
 import ContextualSDK
-import iOS_GuideBlocks
+import GuideBlocks
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
