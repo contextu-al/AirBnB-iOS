@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 3/3/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Created by Yonas Stephen on 2017/3/3.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit
@@ -34,21 +34,62 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func registerContextual() {
-        let appKey = "swift_airbnb_dj"
+        let appKey = "Amr_Test8988589"
         
-        Contextual.sharedInstance().registerGuideBlock(MultiSelectSurveyGuideController(), forKey: "MultiSelectSurvey")
-        Contextual.sharedInstance().registerGuideBlock(AdhocRowInsertion(), forKey: "AdhocRowInsertion")
-        Contextual.sharedInstance().registerGuideBlock(FancyAnnouncementGuide(), forKey: "FancyAnnouncement")
-        Contextual.sharedInstance().registerGuideBlock(AppFieldEditGuide.sharedInstance, forKey: "AppFieldEdit")
-        Contextual.sharedInstance().registerGuideBlock(ConfettiGuide(), forKey: "Confetti")
-        Contextual.sharedInstance().registerGuideBlock(CircleVideoGuide(), forKey: "CircleVideo")
-
+        Contextual.sharedInstance().registerGuideBlock(
+            MultiSelectSurveyGuideController(),
+            forKey: "MultiSelectSurvey"
+        )
+        Contextual.sharedInstance().registerGuideBlock(
+            AdhocRowInsertion(),
+            forKey: "AdhocRowInsertion"
+        )
+        Contextual.sharedInstance().registerGuideBlock(
+            fancyAnnouncementGuideController.fancyAnnouncementGuide,
+            forKey: "FancyAnnouncement"
+        )
+        Contextual.sharedInstance().registerGuideBlock(
+            AppFieldEditGuide.sharedInstance,
+            forKey: "AppFieldEdit"
+        )
+        Contextual.sharedInstance().registerGuideBlock(
+            ConfettiGuide(),
+            forKey: "Confetti"
+        )
+        Contextual.sharedInstance().registerGuideBlock(
+            circleVideoGuideController.circleVideoGuide,
+            forKey: "CircleVideo"
+        )
+        Contextual.sharedInstance().registerGuideBlock(
+            openChecklistGuideController.openChecklistGuide,
+            forKey: "OpenChecklist"
+        )
+        Contextual.sharedInstance().registerGuideBlock(
+            qrCodeGuideController.qrCodeGuide,
+            forKey: "QRCode"
+        )
         
-        Contextual.sharedInstance().registerInstall(forApp: appKey,
-                                                    withDebugMode: true) {
+        Contextual.sharedInstance().registerInstall(
+            forApp: appKey,
+            withDebugMode: true
+        ) {
             let createdTime = ctxFormatDate(Date())
             Contextual.sharedInstance().tagUserId("airbnb-demo \(createdTime ?? "")")
         }
+    }
+
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if url.scheme == "airbnbContextual" {
+            print("got deeplink url: \(url)")
+            if let airbnbMainController = window?.rootViewController as? AirbnbMainController {
+                if airbnbMainController.handle(deepLink: url.absoluteString) {
+                    print("deepLink handled successfully")
+                } else {
+                    print("deepLink failed to be handled")
+                }
+            }
+        }
+        return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

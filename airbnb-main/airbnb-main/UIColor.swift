@@ -2,8 +2,8 @@
 //  UIColor.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 9/3/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Created by Yonas Stephen on 2017/3/9.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  AirbnbSwitch.swift
 //  airbnb-occupant-filter
 //
-//  Created by Yonas Stephen on 5/4/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Created by Yonas Stephen on 2017/4/5.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

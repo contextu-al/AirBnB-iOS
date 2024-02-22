@@ -2,8 +2,8 @@
 //  AirbnbHome.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 3/4/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Created by Yonas Stephen on 2017/4/3.
+//  Copyright © 2017 Contextual.
 //
 
 import Foundation

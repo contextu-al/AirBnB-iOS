@@ -2,8 +2,8 @@
 //  AirbnbMapItemCell.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 3/7/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Created by Yonas Stephen on 2017/7/3.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

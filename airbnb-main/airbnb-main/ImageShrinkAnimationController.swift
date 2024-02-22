@@ -2,8 +2,8 @@
 //  ImageShrinkAnimationController.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 11/4/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Created by Yonas Stephen on 2017/4/11.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

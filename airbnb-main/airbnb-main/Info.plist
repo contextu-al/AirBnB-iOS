@@ -22,6 +22,7 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>appcenter-bec35930-aff7-4a6b-89fb-20b7e98f13af</string>
+				<string>airbnbContextual</string>
 			</array>
 		</dict>
 	</array>
@@ -43,5 +44,11 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>airbnbContextual</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Need access to Camera to read QR Code</string>
 </dict>
 </plist>

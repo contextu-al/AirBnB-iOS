@@ -26,7 +26,6 @@
 		106EBBB92A1EEEDD003AEA2D /* AirbnbDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB9A2A1EEEDD003AEA2D /* AirbnbDatePicker.swift */; };
 		106EBBBA2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB9B2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift */; };
 		106EBBBC2A1EEEDD003AEA2D /* AirbnbDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB9D2A1EEEDD003AEA2D /* AirbnbDatePickerCell.swift */; };
-		106EC8502B87027C00D0C913 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = 106EC84F2B87027C00D0C913 /* GuideBlocks */; };
 		10B122782AFB512800ED3A97 /* AirbnbCustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B122772AFB512800ED3A97 /* AirbnbCustomTableCell.swift */; };
 		750233761E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750233751E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift */; };
 		750233781E8B625100766F8A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750233771E8B625100766F8A /* Theme.swift */; };
@@ -70,6 +69,11 @@
 		84055D0D2941D21F005903A0 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84055D0C2941D21F005903A0 /* LocationCell.swift */; };
 		84A0F649289BC8AF002E01AD /* AirbnbExploreExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F648289BC8AF002E01AD /* AirbnbExploreExperienceController.swift */; };
 		84A0F64B289BC8F9002E01AD /* AirbnbExplorePlacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F64A289BC8F9002E01AD /* AirbnbExplorePlacesController.swift */; };
+		F53085EA2B880D1F00B37914 /* OpenChecklistGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E62B880D1F00B37914 /* OpenChecklistGuideController.swift */; };
+		F53085EB2B880D1F00B37914 /* FancyAnnouncementGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E72B880D1F00B37914 /* FancyAnnouncementGuideController.swift */; };
+		F53085EC2B880D1F00B37914 /* CircleVideoGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E82B880D1F00B37914 /* CircleVideoGuideController.swift */; };
+		F53085ED2B880D1F00B37914 /* QRCodeGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E92B880D1F00B37914 /* QRCodeGuideController.swift */; };
+		F53085F02B880E0D00B37914 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = F53085EF2B880E0D00B37914 /* GuideBlocks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -151,6 +155,10 @@
 		84055D0C2941D21F005903A0 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		84A0F648289BC8AF002E01AD /* AirbnbExploreExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbExploreExperienceController.swift; sourceTree = "<group>"; };
 		84A0F64A289BC8F9002E01AD /* AirbnbExplorePlacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbExplorePlacesController.swift; sourceTree = "<group>"; };
+		F53085E62B880D1F00B37914 /* OpenChecklistGuideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenChecklistGuideController.swift; path = GuideController/OpenChecklistGuideController.swift; sourceTree = "<group>"; };
+		F53085E72B880D1F00B37914 /* FancyAnnouncementGuideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FancyAnnouncementGuideController.swift; path = GuideController/FancyAnnouncementGuideController.swift; sourceTree = "<group>"; };
+		F53085E82B880D1F00B37914 /* CircleVideoGuideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleVideoGuideController.swift; path = GuideController/CircleVideoGuideController.swift; sourceTree = "<group>"; };
+		F53085E92B880D1F00B37914 /* QRCodeGuideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeGuideController.swift; path = GuideController/QRCodeGuideController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106EC8502B87027C00D0C913 /* GuideBlocks in Frameworks */,
+				F53085F02B880E0D00B37914 /* GuideBlocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +265,7 @@
 		756033F21E69AB6C00B78E00 /* airbnb-main */ = {
 			isa = PBXGroup;
 			children = (
+				F53085E52B880D0600B37914 /* GuideController */,
 				106EBB782A1EEE60003AEA2D /* Components */,
 				7560348A1E753BD800B78E00 /* Extension */,
 				7560347C1E6DCB0A00B78E00 /* Model */,
@@ -340,6 +349,17 @@
 			name = Extension;
 			sourceTree = "<group>";
 		};
+		F53085E52B880D0600B37914 /* GuideController */ = {
+			isa = PBXGroup;
+			children = (
+				F53085E82B880D1F00B37914 /* CircleVideoGuideController.swift */,
+				F53085E72B880D1F00B37914 /* FancyAnnouncementGuideController.swift */,
+				F53085E62B880D1F00B37914 /* OpenChecklistGuideController.swift */,
+				F53085E92B880D1F00B37914 /* QRCodeGuideController.swift */,
+			);
+			name = GuideController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -358,7 +378,7 @@
 			);
 			name = "airbnb-main";
 			packageProductDependencies = (
-				106EC84F2B87027C00D0C913 /* GuideBlocks */,
+				F53085EF2B880E0D00B37914 /* GuideBlocks */,
 			);
 			productName = "airbnb-main";
 			productReference = 756033F01E69AB6C00B78E00 /* airbnb-main.app */;
@@ -393,7 +413,7 @@
 			);
 			mainGroup = 756033E71E69AB6C00B78E00;
 			packageReferences = (
-				106EC84B2B87020900D0C913 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
+				F53085EE2B880E0D00B37914 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
 			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
 			projectDirPath = "";
@@ -432,7 +452,9 @@
 				756034981E76E81100B78E00 /* BaseTableController.swift in Sources */,
 				75497C281E9BBF0700F1B4E6 /* AirbnbHomeDetailController.swift in Sources */,
 				75497C3A1EA9117100F1B4E6 /* AirbnbMapController.swift in Sources */,
+				F53085EB2B880D1F00B37914 /* FancyAnnouncementGuideController.swift in Sources */,
 				75497C2A1E9BCD0C00F1B4E6 /* ImageExpandAnimationController.swift in Sources */,
+				F53085EC2B880D1F00B37914 /* CircleVideoGuideController.swift in Sources */,
 				10574FC82AFDB755004F01C1 /* AppFieldEditGuide.swift in Sources */,
 				75497C301E9FA30700F1B4E6 /* VerticalAlignLabel.swift in Sources */,
 				7560349A1E84120900B78E00 /* AirbnbExploreHomeController.swift in Sources */,
@@ -449,6 +471,7 @@
 				84055D0B2941CAD7005903A0 /* LocationItem.swift in Sources */,
 				106EBBBA2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift in Sources */,
 				756034961E75B74A00B78E00 /* String.swift in Sources */,
+				F53085ED2B880D1F00B37914 /* QRCodeGuideController.swift in Sources */,
 				7560348E1E755B9A00B78E00 /* UIImage.swift in Sources */,
 				84055D0D2941D21F005903A0 /* LocationCell.swift in Sources */,
 				75497C341E9FA9AF00F1B4E6 /* AirbnbReview.swift in Sources */,
@@ -469,6 +492,7 @@
 				756034061E69AD7400B78E00 /* AirbnbMainController.swift in Sources */,
 				756034831E6DD28800B78E00 /* AirbnbCategoryTableCell.swift in Sources */,
 				106EBBAA2A1EEEDD003AEA2D /* AirbnbOccupantFilterController.swift in Sources */,
+				F53085EA2B880D1F00B37914 /* OpenChecklistGuideController.swift in Sources */,
 				10B122782AFB512800ED3A97 /* AirbnbCustomTableCell.swift in Sources */,
 				106EBBAB2A1EEEDD003AEA2D /* Date+DatePicker.swift in Sources */,
 				7502337A1E8BB7D000766F8A /* AirbnbPageTabNavigationView.swift in Sources */,
@@ -738,20 +762,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		106EC84B2B87020900D0C913 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
+		F53085EE2B880E0D00B37914 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/GuideBlocks-org/iOS-GuideBlocks";
+			repositoryURL = "https://github.com/amraboelela/iOS-GuideBlocks.git";
 			requirement = {
-				branch = main;
+				branch = checklist;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		106EC84F2B87027C00D0C913 /* GuideBlocks */ = {
+		F53085EF2B880E0D00B37914 /* GuideBlocks */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 106EC84B2B87020900D0C913 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
+			package = F53085EE2B880E0D00B37914 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
 			productName = GuideBlocks;
 		};
 /* End XCSwiftPackageProductDependency section */

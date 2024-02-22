@@ -2,8 +2,8 @@
 //  AirbnbCustomTableCell.swift
 //  airbnb-main
 //
-//  Created by Marc Stroebel on 8/11/2023.
-//  Copyright © 2023 Contextual. All rights reserved.
+//  Created by Marc Stroebel on 2023/11/8.
+//  Copyright © 2023 Contextual.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  AirbnbDatePickerViewController.swift
 //  airbnb-datepicker
 //
-//  Created by Yonas Stephen on 22/2/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Created by Yonas Stephen on 2017/2/22.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit

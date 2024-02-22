@@ -2,8 +2,8 @@
 //  BaseTableController.swift
 //  airbnb-main
 //
-//  Created by Yonas Stephen on 13/3/17.
-//  Copyright © 2017 Yonas Stephen. All rights reserved.
+//  Created by Yonas Stephen on 2017/3/13.
+//  Copyright © 2017 Contextual.
 //
 
 import UIKit
