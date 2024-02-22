@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,7 +26,7 @@
 		106EBBB92A1EEEDD003AEA2D /* AirbnbDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB9A2A1EEEDD003AEA2D /* AirbnbDatePicker.swift */; };
 		106EBBBA2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB9B2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift */; };
 		106EBBBC2A1EEEDD003AEA2D /* AirbnbDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106EBB9D2A1EEEDD003AEA2D /* AirbnbDatePickerCell.swift */; };
-		107E9DEF2B6766FD00AE8E17 /* iOS-GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = 107E9DEE2B6766FD00AE8E17 /* iOS-GuideBlocks */; };
+		106EC8502B87027C00D0C913 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = 106EC84F2B87027C00D0C913 /* GuideBlocks */; };
 		10B122782AFB512800ED3A97 /* AirbnbCustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B122772AFB512800ED3A97 /* AirbnbCustomTableCell.swift */; };
 		750233761E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750233751E8B4B9D00766F8A /* AirbnbExploreHeaderView.swift */; };
 		750233781E8B625100766F8A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750233771E8B625100766F8A /* Theme.swift */; };
@@ -158,7 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				107E9DEF2B6766FD00AE8E17 /* iOS-GuideBlocks in Frameworks */,
+				106EC8502B87027C00D0C913 /* GuideBlocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,11 +230,19 @@
 			path = DatePicker;
 			sourceTree = "<group>";
 		};
+		106EC84E2B87027C00D0C913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		756033E71E69AB6C00B78E00 = {
 			isa = PBXGroup;
 			children = (
 				756033F21E69AB6C00B78E00 /* airbnb-main */,
 				756033F11E69AB6C00B78E00 /* Products */,
+				106EC84E2B87027C00D0C913 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -350,7 +358,7 @@
 			);
 			name = "airbnb-main";
 			packageProductDependencies = (
-				107E9DEE2B6766FD00AE8E17 /* iOS-GuideBlocks */,
+				106EC84F2B87027C00D0C913 /* GuideBlocks */,
 			);
 			productName = "airbnb-main";
 			productReference = 756033F01E69AB6C00B78E00 /* airbnb-main.app */;
@@ -385,7 +393,7 @@
 			);
 			mainGroup = 756033E71E69AB6C00B78E00;
 			packageReferences = (
-				107E9DED2B6766FD00AE8E17 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
+				106EC84B2B87020900D0C913 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
 			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
 			projectDirPath = "";
@@ -621,7 +629,6 @@
 				CURRENT_PROJECT_VERSION = 1664343659;
 				DEVELOPMENT_TEAM = AG748WC3N7;
 				EXCLUDED_ARCHS = "";
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "airbnb-main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -731,7 +738,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		107E9DED2B6766FD00AE8E17 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
+		106EC84B2B87020900D0C913 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/GuideBlocks-org/iOS-GuideBlocks";
 			requirement = {
@@ -742,10 +749,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		107E9DEE2B6766FD00AE8E17 /* iOS-GuideBlocks */ = {
+		106EC84F2B87027C00D0C913 /* GuideBlocks */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 107E9DED2B6766FD00AE8E17 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
-			productName = "iOS-GuideBlocks";
+			package = 106EC84B2B87020900D0C913 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
+			productName = GuideBlocks;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
