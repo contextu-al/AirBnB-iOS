@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func registerContextual() {
-        let appKey = "Amr_Test8988589"
+        let appKey = "Aamir_Testcfd5f17"
         
         Contextual.sharedInstance().registerGuideBlock(
             MultiSelectSurveyGuideController(),
@@ -67,6 +67,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerGuideBlock(
             qrCodeGuideController.qrCodeGuide,
             forKey: "QRCode"
+        )
+        Contextual.sharedInstance().registerGuideBlock(
+            openCarouselController.openCarouselGuid,
+            forKey: "OpenCarousel"
         )
         
         Contextual.sharedInstance().registerInstall(
