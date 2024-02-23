@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -73,7 +73,7 @@
 		F53085EB2B880D1F00B37914 /* FancyAnnouncementGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E72B880D1F00B37914 /* FancyAnnouncementGuideController.swift */; };
 		F53085EC2B880D1F00B37914 /* CircleVideoGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E82B880D1F00B37914 /* CircleVideoGuideController.swift */; };
 		F53085ED2B880D1F00B37914 /* QRCodeGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E92B880D1F00B37914 /* QRCodeGuideController.swift */; };
-		F53085F02B880E0D00B37914 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = F53085EF2B880E0D00B37914 /* GuideBlocks */; };
+		F53085F52B883E0E00B37914 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = F53085F42B883E0E00B37914 /* GuideBlocks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -166,7 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53085F02B880E0D00B37914 /* GuideBlocks in Frameworks */,
+				F53085F52B883E0E00B37914 /* GuideBlocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +265,12 @@
 		756033F21E69AB6C00B78E00 /* airbnb-main */ = {
 			isa = PBXGroup;
 			children = (
-				F53085E52B880D0600B37914 /* GuideController */,
 				106EBB782A1EEE60003AEA2D /* Components */,
 				7560348A1E753BD800B78E00 /* Extension */,
 				7560347C1E6DCB0A00B78E00 /* Model */,
 				756034811E6DD25900B78E00 /* View */,
 				7560347B1E6DCAFC00B78E00 /* ViewController */,
+				F53085E52B880D0600B37914 /* GuideController */,
 				108788952A1EF5FE008FD4E0 /* airbnb-main-Bridging-Header.h */,
 				756033F31E69AB6C00B78E00 /* AppDelegate.swift */,
 				756033F71E69AB6C00B78E00 /* Main.storyboard */,
@@ -378,7 +378,7 @@
 			);
 			name = "airbnb-main";
 			packageProductDependencies = (
-				F53085EF2B880E0D00B37914 /* GuideBlocks */,
+				F53085F42B883E0E00B37914 /* GuideBlocks */,
 			);
 			productName = "airbnb-main";
 			productReference = 756033F01E69AB6C00B78E00 /* airbnb-main.app */;
@@ -413,7 +413,7 @@
 			);
 			mainGroup = 756033E71E69AB6C00B78E00;
 			packageReferences = (
-				F53085EE2B880E0D00B37914 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
+				F53085F12B883D9700B37914 /* XCLocalSwiftPackageReference "../../iOS-GuideBlocks" */,
 			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
 			projectDirPath = "";
@@ -761,21 +761,17 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		F53085EE2B880E0D00B37914 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/amraboelela/iOS-GuideBlocks.git";
-			requirement = {
-				branch = checklist;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		F53085F12B883D9700B37914 /* XCLocalSwiftPackageReference "../../iOS-GuideBlocks" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../iOS-GuideBlocks";
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F53085EF2B880E0D00B37914 /* GuideBlocks */ = {
+		F53085F42B883E0E00B37914 /* GuideBlocks */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F53085EE2B880E0D00B37914 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
+			package = F53085F12B883D9700B37914 /* XCLocalSwiftPackageReference "../../iOS-GuideBlocks" */;
 			productName = GuideBlocks;
 		};
 /* End XCSwiftPackageProductDependency section */
