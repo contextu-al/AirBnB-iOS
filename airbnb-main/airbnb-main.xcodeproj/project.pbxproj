@@ -69,11 +69,12 @@
 		84055D0D2941D21F005903A0 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84055D0C2941D21F005903A0 /* LocationCell.swift */; };
 		84A0F649289BC8AF002E01AD /* AirbnbExploreExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F648289BC8AF002E01AD /* AirbnbExploreExperienceController.swift */; };
 		84A0F64B289BC8F9002E01AD /* AirbnbExplorePlacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F64A289BC8F9002E01AD /* AirbnbExplorePlacesController.swift */; };
+		EBC3E0322B88B04000CCF5FC /* OpenCarouselGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC3E0312B88B04000CCF5FC /* OpenCarouselGuideController.swift */; };
+		EBE460DE2B88814D00C0D762 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = EBE460DD2B88814D00C0D762 /* GuideBlocks */; };
 		F53085EA2B880D1F00B37914 /* OpenChecklistGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E62B880D1F00B37914 /* OpenChecklistGuideController.swift */; };
 		F53085EB2B880D1F00B37914 /* FancyAnnouncementGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E72B880D1F00B37914 /* FancyAnnouncementGuideController.swift */; };
 		F53085EC2B880D1F00B37914 /* CircleVideoGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E82B880D1F00B37914 /* CircleVideoGuideController.swift */; };
 		F53085ED2B880D1F00B37914 /* QRCodeGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E92B880D1F00B37914 /* QRCodeGuideController.swift */; };
-		F53085F02B880E0D00B37914 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = F53085EF2B880E0D00B37914 /* GuideBlocks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -155,6 +156,7 @@
 		84055D0C2941D21F005903A0 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		84A0F648289BC8AF002E01AD /* AirbnbExploreExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbExploreExperienceController.swift; sourceTree = "<group>"; };
 		84A0F64A289BC8F9002E01AD /* AirbnbExplorePlacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbExplorePlacesController.swift; sourceTree = "<group>"; };
+		EBC3E0312B88B04000CCF5FC /* OpenCarouselGuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCarouselGuideController.swift; sourceTree = "<group>"; };
 		F53085E62B880D1F00B37914 /* OpenChecklistGuideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenChecklistGuideController.swift; path = GuideController/OpenChecklistGuideController.swift; sourceTree = "<group>"; };
 		F53085E72B880D1F00B37914 /* FancyAnnouncementGuideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FancyAnnouncementGuideController.swift; path = GuideController/FancyAnnouncementGuideController.swift; sourceTree = "<group>"; };
 		F53085E82B880D1F00B37914 /* CircleVideoGuideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleVideoGuideController.swift; path = GuideController/CircleVideoGuideController.swift; sourceTree = "<group>"; };
@@ -166,7 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53085F02B880E0D00B37914 /* GuideBlocks in Frameworks */,
+				EBE460DE2B88814D00C0D762 /* GuideBlocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +358,7 @@
 				F53085E72B880D1F00B37914 /* FancyAnnouncementGuideController.swift */,
 				F53085E62B880D1F00B37914 /* OpenChecklistGuideController.swift */,
 				F53085E92B880D1F00B37914 /* QRCodeGuideController.swift */,
+				EBC3E0312B88B04000CCF5FC /* OpenCarouselGuideController.swift */,
 			);
 			name = GuideController;
 			sourceTree = "<group>";
@@ -378,7 +381,7 @@
 			);
 			name = "airbnb-main";
 			packageProductDependencies = (
-				F53085EF2B880E0D00B37914 /* GuideBlocks */,
+				EBE460DD2B88814D00C0D762 /* GuideBlocks */,
 			);
 			productName = "airbnb-main";
 			productReference = 756033F01E69AB6C00B78E00 /* airbnb-main.app */;
@@ -413,7 +416,7 @@
 			);
 			mainGroup = 756033E71E69AB6C00B78E00;
 			packageReferences = (
-				F53085EE2B880E0D00B37914 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
+				EBE460DC2B88814D00C0D762 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
 			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
 			projectDirPath = "";
@@ -485,6 +488,7 @@
 				75069EE11E923C34009BFC12 /* BaseCollectionCell.swift in Sources */,
 				106EBBA32A1EEEDD003AEA2D /* AirbnbCounter.swift in Sources */,
 				756034891E7337BE00B78E00 /* AirbnbExploreController.swift in Sources */,
+				EBC3E0322B88B04000CCF5FC /* OpenCarouselGuideController.swift in Sources */,
 				756034871E70753B00B78E00 /* UIColor.swift in Sources */,
 				106EBBB02A1EEEDD003AEA2D /* AirbnbDatePickerFooter.swift in Sources */,
 				756034801E6DCCE900B78E00 /* AirbnbContentCategory.swift in Sources */,
@@ -762,20 +766,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F53085EE2B880E0D00B37914 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
+		EBE460DC2B88814D00C0D762 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/amraboelela/iOS-GuideBlocks.git";
+			repositoryURL = "https://github.com/AamirAlvi/iOS-GuideBlocks.git";
 			requirement = {
-				branch = checklist;
+				branch = onboardingController;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F53085EF2B880E0D00B37914 /* GuideBlocks */ = {
+		EBE460DD2B88814D00C0D762 /* GuideBlocks */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F53085EE2B880E0D00B37914 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
+			package = EBE460DC2B88814D00C0D762 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
 			productName = GuideBlocks;
 		};
 /* End XCSwiftPackageProductDependency section */
