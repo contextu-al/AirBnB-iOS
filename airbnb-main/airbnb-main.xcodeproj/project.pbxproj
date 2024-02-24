@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -70,11 +70,11 @@
 		84A0F649289BC8AF002E01AD /* AirbnbExploreExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F648289BC8AF002E01AD /* AirbnbExploreExperienceController.swift */; };
 		84A0F64B289BC8F9002E01AD /* AirbnbExplorePlacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F64A289BC8F9002E01AD /* AirbnbExplorePlacesController.swift */; };
 		EBC3E0322B88B04000CCF5FC /* OpenCarouselGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC3E0312B88B04000CCF5FC /* OpenCarouselGuideController.swift */; };
-		EBE460DE2B88814D00C0D762 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = EBE460DD2B88814D00C0D762 /* GuideBlocks */; };
 		F53085EA2B880D1F00B37914 /* OpenChecklistGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E62B880D1F00B37914 /* OpenChecklistGuideController.swift */; };
 		F53085EB2B880D1F00B37914 /* FancyAnnouncementGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E72B880D1F00B37914 /* FancyAnnouncementGuideController.swift */; };
 		F53085EC2B880D1F00B37914 /* CircleVideoGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E82B880D1F00B37914 /* CircleVideoGuideController.swift */; };
 		F53085ED2B880D1F00B37914 /* QRCodeGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53085E92B880D1F00B37914 /* QRCodeGuideController.swift */; };
+		F53085FB2B895D3B00B37914 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = F53085FA2B895D3B00B37914 /* GuideBlocks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -168,7 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBE460DE2B88814D00C0D762 /* GuideBlocks in Frameworks */,
+				F53085FB2B895D3B00B37914 /* GuideBlocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +381,7 @@
 			);
 			name = "airbnb-main";
 			packageProductDependencies = (
-				EBE460DD2B88814D00C0D762 /* GuideBlocks */,
+				F53085FA2B895D3B00B37914 /* GuideBlocks */,
 			);
 			productName = "airbnb-main";
 			productReference = 756033F01E69AB6C00B78E00 /* airbnb-main.app */;
@@ -399,9 +399,7 @@
 				TargetAttributes = {
 					756033EF1E69AB6C00B78E00 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = AG748WC3N7;
 						LastSwiftMigration = 1330;
-						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -416,7 +414,7 @@
 			);
 			mainGroup = 756033E71E69AB6C00B78E00;
 			packageReferences = (
-				EBE460DC2B88814D00C0D762 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
+				F53085F72B895D2200B37914 /* XCLocalSwiftPackageReference "../../iOS-GuideBlocks" */,
 			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
 			projectDirPath = "";
@@ -652,10 +650,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1664343659;
-				DEVELOPMENT_TEAM = AG748WC3N7;
+				DEVELOPMENT_TEAM = PHEF24B589;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "airbnb-main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -686,7 +684,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.contextual.airbnb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.contextual.airbnb";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "airbnb-main/airbnb-main-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -700,10 +698,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1664343659;
-				DEVELOPMENT_TEAM = AG748WC3N7;
+				DEVELOPMENT_TEAM = PHEF24B589;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "airbnb-main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -735,7 +733,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.contextual.airbnb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.contextual.airbnb";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "airbnb-main/airbnb-main-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -765,21 +763,17 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		EBE460DC2B88814D00C0D762 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AamirAlvi/iOS-GuideBlocks.git";
-			requirement = {
-				branch = onboardingController;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		F53085F72B895D2200B37914 /* XCLocalSwiftPackageReference "../../iOS-GuideBlocks" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../iOS-GuideBlocks";
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EBE460DD2B88814D00C0D762 /* GuideBlocks */ = {
+		F53085FA2B895D3B00B37914 /* GuideBlocks */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EBE460DC2B88814D00C0D762 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
+			package = F53085F72B895D2200B37914 /* XCLocalSwiftPackageReference "../../iOS-GuideBlocks" */;
 			productName = GuideBlocks;
 		};
 /* End XCSwiftPackageProductDependency section */

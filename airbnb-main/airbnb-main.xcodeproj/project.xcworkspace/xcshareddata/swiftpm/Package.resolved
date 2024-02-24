@@ -6,7 +6,7 @@
       "location" : "https://github.com/twostraws/CodeScanner",
       "state" : {
         "branch" : "main",
-        "revision" : "bf5d7087015620b250ee6c865b3c9039fc159d1a"
+        "revision" : "9302aa103d94d1bdbbb452b3986704508b2364a5"
       }
     },
     {
@@ -25,15 +25,6 @@
       "state" : {
         "revision" : "e387ca9c689943b624a59e966b2474ce749a11f5",
         "version" : "3.0.1"
-      }
-    },
-    {
-      "identity" : "ios-guideblocks",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AamirAlvi/iOS-GuideBlocks.git",
-      "state" : {
-        "branch" : "onboardingController",
-        "revision" : "c1d392a082209099a6e2a0574c7a854209ead0c7"
       }
     }
   ],
