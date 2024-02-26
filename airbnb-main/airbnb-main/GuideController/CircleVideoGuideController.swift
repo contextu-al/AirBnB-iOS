@@ -17,5 +17,8 @@ class CircleVideoGuideController {
         circleVideoGuide.videoIsPlaying = {
             print("CircleVideoGuideController, circleVideoGuide.videoIsPlaying")
         }
+        circleVideoGuide.closeButtonTapped = {
+            print("CircleVideoGuideController, circleVideoGuide.closeButtonTapped")
+        }
     }
 }

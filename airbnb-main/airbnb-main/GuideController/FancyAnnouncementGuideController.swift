@@ -14,14 +14,14 @@ class FancyAnnouncementGuideController {
     var fancyAnnouncementGuide = FancyAnnouncementGuide()
     
     init() {
-        fancyAnnouncementGuide.closeButtonTapped = {
-            print("FancyAnnouncementGuideController, fancyAnnouncementGuide.closeButtonTapped")
-        }
         fancyAnnouncementGuide.leftButtonTapped = {
             print("FancyAnnouncementGuideController, fancyAnnouncementGuide.leftButtonTapped")
         }
         fancyAnnouncementGuide.rightButtonTapped = {
             print("FancyAnnouncementGuideController, fancyAnnouncementGuide.rightButtonTapped")
+        }
+        fancyAnnouncementGuide.closeButtonTapped = {
+            print("FancyAnnouncementGuideController, fancyAnnouncementGuide.closeButtonTapped")
         }
     }
 }

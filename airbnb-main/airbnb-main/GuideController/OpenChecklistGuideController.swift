@@ -17,5 +17,8 @@ class OpenChecklistGuideController {
         openChecklistGuide.completedCallback = {
             print("OpenChecklistGuideController, openChecklistGuide.completedCallback")
         }
+        openChecklistGuide.closeButtonTapped = {
+            print("OpenChecklistGuideController, openChecklistGuide.closeButtonTapped")
+        }
     }
 }

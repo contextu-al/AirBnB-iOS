@@ -17,5 +17,8 @@ class QRCodeGuideController {
         qrCodeGuide.scannedCodeCallback = { code in
             print("QRCodeGuideController, scannedCodeCallback, code: \(code)")
         }
+        qrCodeGuide.closeButtonTapped = {
+            print("QRCodeGuideController, qrCodeGuide.closeButtonTapped")
+        }
     }
 }
