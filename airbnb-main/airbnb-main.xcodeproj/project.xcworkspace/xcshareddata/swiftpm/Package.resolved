@@ -26,6 +26,15 @@
         "revision" : "e387ca9c689943b624a59e966b2474ce749a11f5",
         "version" : "3.0.1"
       }
+    },
+    {
+      "identity" : "ios-guideblocks",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/GuideBlocks-org/iOS-GuideBlocks",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "9a945e440a33554a0d45a5dc33d2bc02dff006f3"
+      }
     }
   ],
   "version" : 2
