@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func registerContextual() {
-        let appKey = "Aamir_Testcfd5f17"
+        let appKey = "Amr_Test8988589"
         
         Contextual.sharedInstance().registerGuideBlock(
             MultiSelectSurveyGuideController(),
