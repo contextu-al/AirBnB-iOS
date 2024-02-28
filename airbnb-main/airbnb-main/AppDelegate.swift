@@ -69,8 +69,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             forKey: "QRCode"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            openCarouselController.openCarouselGuid,
+            openCarouselGuideController.openCarouselGuid,
             forKey: "OpenCarousel"
+        )
+        Contextual.sharedInstance().registerGuideBlock(
+            quizGuideController.quizGuide,
+            forKey: "QuizGateKeeper"
         )
         
         Contextual.sharedInstance().registerInstall(

@@ -2,15 +2,15 @@
 //  OpenCarouselGuideController.swift
 //  GuideBlocks
 //
-//  Created by Aamir on 23/02/24.
+//  Created by Aamir on 2024/2/23.
 //  Copyright © 2024 Contextual.
 //
 
 import GuideBlocks
 
-let openCarouselController = OpenCarouselController()
+let openCarouselGuideController = OpenCarouselGuideController()
 
-class OpenCarouselController {
+class OpenCarouselGuideController {
     var openCarouselGuid = OpenCarouselGuid()
     
     init() {
