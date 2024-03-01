@@ -6,7 +6,7 @@
       "location" : "https://github.com/twostraws/CodeScanner",
       "state" : {
         "branch" : "main",
-        "revision" : "9302aa103d94d1bdbbb452b3986704508b2364a5"
+        "revision" : "303bd5adbb61d068c3bcbb839857340c3e6ff8b0"
       }
     },
     {
@@ -33,7 +33,7 @@
       "location" : "https://github.com/GuideBlocks-org/iOS-GuideBlocks",
       "state" : {
         "branch" : "develop",
-        "revision" : "9a945e440a33554a0d45a5dc33d2bc02dff006f3"
+        "revision" : "26b84fab30a159c2556a811795816304f992a685"
       }
     }
   ],

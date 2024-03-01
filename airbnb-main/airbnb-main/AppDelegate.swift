@@ -72,6 +72,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             openCarouselController.openCarouselGuid,
             forKey: "OpenCarousel"
         )
+        Contextual.sharedInstance().registerGuideBlock(
+            QuizGuide(),
+            forKey: "QuizGateKeeper"
+        )
         
         Contextual.sharedInstance().registerInstall(
             forApp: appKey,
