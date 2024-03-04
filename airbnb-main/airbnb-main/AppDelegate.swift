@@ -76,7 +76,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             quizGuideController.quizGuide,
             forKey: "QuizGateKeeper"
         )
-        
+        Contextual.sharedInstance().registerGuideBlock(
+            UIAlertControllerGuide(),
+            forKey: "UIAlertController"
+        )
         Contextual.sharedInstance().registerInstall(
             forApp: appKey,
             withDebugMode: true
