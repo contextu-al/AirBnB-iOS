@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             forKey: "AdhocRowInsertion"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            fancyAnnouncementGuideController.fancyAnnouncementGuide,
+            fancyAnnouncementGuideManager.guideController,
             forKey: "FancyAnnouncement"
         )
         Contextual.sharedInstance().registerGuideBlock(
@@ -57,23 +57,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             forKey: "Confetti"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            circleVideoGuideController.circleVideoGuide,
+            circleVideoGuideManager.guideController,
             forKey: "CircleVideo"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            openChecklistGuideController.openChecklistGuide,
+            openChecklistGuideManager.guideController,
             forKey: "OpenChecklist"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            qrCodeGuideController.qrCodeGuide,
+            qrCodeGuideManager.guideController,
             forKey: "QRCode"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            openCarouselGuideController.openCarouselGuid,
+            openCarouselGuideManager.guideController,
             forKey: "OpenCarousel"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            quizGuideController.quizGuide,
+            quizGuideManager.guideController,
             forKey: "QuizGateKeeper"
         )
         Contextual.sharedInstance().registerGuideBlock(

@@ -1,5 +1,5 @@
 //
-//  QRCodeGuideController.swift
+//  QRCodeGuideManager.swift
 //  GuideBlocks
 //
 //  Created by Amr Aboelela on 2024/2/20.
@@ -8,16 +8,16 @@
 
 import GuideBlocks
 
-let qrCodeGuideController = QRCodeGuideController()
+let qrCodeGuideManager = QRCodeGuideManager()
 
-class QRCodeGuideController {
-    var qrCodeGuide = QRCodeGuide()
+class QRCodeGuideManager {
+    var guideController = QRCodeGuideController()
     
     init() {
-        qrCodeGuide.scannedCodeCallback = { code in
+        guideController.scannedCodeCallback = { code in
             print("QRCodeGuideController, scannedCodeCallback, code: \(code)")
         }
-        qrCodeGuide.closeButtonTapped = {
+        guideController.closeButtonTapped = {
             print("QRCodeGuideController, qrCodeGuide.closeButtonTapped")
         }
     }
