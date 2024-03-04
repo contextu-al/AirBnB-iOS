@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func registerContextual() {
-        let appKey = "Aamir_Testcfd5f17"
+        let appKey = "swift_airbnb_dj"
         
         Contextual.sharedInstance().registerGuideBlock(
             MultiSelectSurveyGuideController(),
@@ -75,6 +75,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Contextual.sharedInstance().registerGuideBlock(
             QuizGuide(),
             forKey: "QuizGateKeeper"
+        )
+        Contextual.sharedInstance().registerGuideBlock(
+            UIAlertControllerGuide(),
+            forKey: "UIAlertController"
         )
         
         Contextual.sharedInstance().registerInstall(
