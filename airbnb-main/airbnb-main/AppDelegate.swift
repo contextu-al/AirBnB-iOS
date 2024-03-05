@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func registerContextual() {
-        let appKey = "swift_airbnb_dj"
+        let appKey = "Amr_Test8988589"
         
         Contextual.sharedInstance().registerGuideBlock(
             MultiSelectSurveyGuideController(),
@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             forKey: "AdhocRowInsertion"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            fancyAnnouncementGuideController.fancyAnnouncementGuide,
+            fancyAnnouncementGuideManager.guideController,
             forKey: "FancyAnnouncement"
         )
         Contextual.sharedInstance().registerGuideBlock(
@@ -57,30 +57,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             forKey: "Confetti"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            circleVideoGuideController.circleVideoGuide,
+            circleVideoGuideManager.guideController,
             forKey: "CircleVideo"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            openChecklistGuideController.openChecklistGuide,
+            openChecklistGuideManager.guideController,
             forKey: "OpenChecklist"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            qrCodeGuideController.qrCodeGuide,
+            qrCodeGuideManager.guideController,
             forKey: "QRCode"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            openCarouselController.openCarouselGuid,
+            openCarouselGuideManager.guideController,
             forKey: "OpenCarousel"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            QuizGuide(),
+            quizGuideManager.guideController,
             forKey: "QuizGateKeeper"
         )
         Contextual.sharedInstance().registerGuideBlock(
             UIAlertControllerGuide(),
             forKey: "UIAlertController"
         )
-        
         Contextual.sharedInstance().registerInstall(
             forApp: appKey,
             withDebugMode: true
