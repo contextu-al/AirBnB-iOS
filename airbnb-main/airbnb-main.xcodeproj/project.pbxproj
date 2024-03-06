@@ -76,6 +76,7 @@
 		F5B06C9D2B966D8C00BB2AB1 /* QRCodeGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B06C982B966D8C00BB2AB1 /* QRCodeGuideManager.swift */; };
 		F5B06C9E2B966D8C00BB2AB1 /* QuizGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B06C992B966D8C00BB2AB1 /* QuizGuideManager.swift */; };
 		F5B06CA02B966DAC00BB2AB1 /* OpenCarouselGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B06C9F2B966DAC00BB2AB1 /* OpenCarouselGuideManager.swift */; };
+		F5B06CA42B96734500BB2AB1 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = F5B06CA32B96734500BB2AB1 /* GuideBlocks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -171,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5B06C942B96633B00BB2AB1 /* GuideBlocks in Frameworks */,
+				F5B06CA42B96734500BB2AB1 /* GuideBlocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +271,9 @@
 		756033F21E69AB6C00B78E00 /* airbnb-main */ = {
 			isa = PBXGroup;
 			children = (
-				F53085E52B880D0600B37914 /* GuideManagers */,
 				106EBB782A1EEE60003AEA2D /* Components */,
 				7560348A1E753BD800B78E00 /* Extension */,
+				F53085E52B880D0600B37914 /* GuideManagers */,
 				7560347C1E6DCB0A00B78E00 /* Model */,
 				756034811E6DD25900B78E00 /* View */,
 				7560347B1E6DCAFC00B78E00 /* ViewController */,
@@ -385,6 +387,7 @@
 			name = "airbnb-main";
 			packageProductDependencies = (
 				F5B06C932B96633B00BB2AB1 /* GuideBlocks */,
+				F5B06CA32B96734500BB2AB1 /* GuideBlocks */,
 			);
 			productName = "airbnb-main";
 			productReference = 756033F01E69AB6C00B78E00 /* airbnb-main.app */;
@@ -417,7 +420,7 @@
 			);
 			mainGroup = 756033E71E69AB6C00B78E00;
 			packageReferences = (
-				F5B06CA12B9672EA00BB2AB1 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
+				F5B06CA62B97F48800BB2AB1 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
 			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
 			projectDirPath = "";
@@ -774,9 +777,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F5B06CA12B9672EA00BB2AB1 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
+		F5B06CA62B97F48800BB2AB1 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/amraboelela/iOS-GuideBlocks.git";
+			repositoryURL = "https://github.com/GuideBlocks-org/iOS-GuideBlocks.git";
 			requirement = {
 				branch = develop;
 				kind = branch;
@@ -786,6 +789,10 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		F5B06C932B96633B00BB2AB1 /* GuideBlocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GuideBlocks;
+		};
+		F5B06CA32B96734500BB2AB1 /* GuideBlocks */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = GuideBlocks;
 		};
