@@ -69,6 +69,7 @@
 		84055D0D2941D21F005903A0 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84055D0C2941D21F005903A0 /* LocationCell.swift */; };
 		84A0F649289BC8AF002E01AD /* AirbnbExploreExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F648289BC8AF002E01AD /* AirbnbExploreExperienceController.swift */; };
 		84A0F64B289BC8F9002E01AD /* AirbnbExplorePlacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0F64A289BC8F9002E01AD /* AirbnbExplorePlacesController.swift */; };
+		F597842B2B991B3E007CE01D /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = F597842A2B991B3E007CE01D /* GuideBlocks */; };
 		F5B06C942B96633B00BB2AB1 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = F5B06C932B96633B00BB2AB1 /* GuideBlocks */; };
 		F5B06C9A2B966D8C00BB2AB1 /* FancyAnnouncementGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B06C952B966D8C00BB2AB1 /* FancyAnnouncementGuideManager.swift */; };
 		F5B06C9B2B966D8C00BB2AB1 /* CircleVideoGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B06C962B966D8C00BB2AB1 /* CircleVideoGuideManager.swift */; };
@@ -77,6 +78,8 @@
 		F5B06C9E2B966D8C00BB2AB1 /* QuizGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B06C992B966D8C00BB2AB1 /* QuizGuideManager.swift */; };
 		F5B06CA02B966DAC00BB2AB1 /* OpenCarouselGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B06C9F2B966DAC00BB2AB1 /* OpenCarouselGuideManager.swift */; };
 		F5B06CA42B96734500BB2AB1 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = F5B06CA32B96734500BB2AB1 /* GuideBlocks */; };
+		F5B06CA92B97FA7F00BB2AB1 /* GuideBlocks in Frameworks */ = {isa = PBXBuildFile; productRef = F5B06CA82B97FA7F00BB2AB1 /* GuideBlocks */; };
+		F5B06CAB2B98183A00BB2AB1 /* ConfettiGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B06CAA2B98183A00BB2AB1 /* ConfettiGuideManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -164,6 +167,7 @@
 		F5B06C982B966D8C00BB2AB1 /* QRCodeGuideManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeGuideManager.swift; path = GuideManagers/QRCodeGuideManager.swift; sourceTree = "<group>"; };
 		F5B06C992B966D8C00BB2AB1 /* QuizGuideManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizGuideManager.swift; path = GuideManagers/QuizGuideManager.swift; sourceTree = "<group>"; };
 		F5B06C9F2B966DAC00BB2AB1 /* OpenCarouselGuideManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenCarouselGuideManager.swift; path = GuideManagers/OpenCarouselGuideManager.swift; sourceTree = "<group>"; };
+		F5B06CAA2B98183A00BB2AB1 /* ConfettiGuideManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfettiGuideManager.swift; path = GuideManagers/ConfettiGuideManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,8 +175,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B06CA92B97FA7F00BB2AB1 /* GuideBlocks in Frameworks */,
 				F5B06C942B96633B00BB2AB1 /* GuideBlocks in Frameworks */,
 				F5B06CA42B96734500BB2AB1 /* GuideBlocks in Frameworks */,
+				F597842B2B991B3E007CE01D /* GuideBlocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +365,7 @@
 			isa = PBXGroup;
 			children = (
 				F5B06C962B966D8C00BB2AB1 /* CircleVideoGuideManager.swift */,
+				F5B06CAA2B98183A00BB2AB1 /* ConfettiGuideManager.swift */,
 				F5B06C952B966D8C00BB2AB1 /* FancyAnnouncementGuideManager.swift */,
 				F5B06C9F2B966DAC00BB2AB1 /* OpenCarouselGuideManager.swift */,
 				F5B06C972B966D8C00BB2AB1 /* OpenChecklistGuideManager.swift */,
@@ -388,6 +395,8 @@
 			packageProductDependencies = (
 				F5B06C932B96633B00BB2AB1 /* GuideBlocks */,
 				F5B06CA32B96734500BB2AB1 /* GuideBlocks */,
+				F5B06CA82B97FA7F00BB2AB1 /* GuideBlocks */,
+				F597842A2B991B3E007CE01D /* GuideBlocks */,
 			);
 			productName = "airbnb-main";
 			productReference = 756033F01E69AB6C00B78E00 /* airbnb-main.app */;
@@ -420,7 +429,7 @@
 			);
 			mainGroup = 756033E71E69AB6C00B78E00;
 			packageReferences = (
-				F5B06CA62B97F48800BB2AB1 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
+				F59784292B991B3E007CE01D /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */,
 			);
 			productRefGroup = 756033F11E69AB6C00B78E00 /* Products */;
 			projectDirPath = "";
@@ -475,6 +484,7 @@
 				106EBBA42A1EEEDD003AEA2D /* AirbnbSwitch.swift in Sources */,
 				106EBBB62A1EEEDD003AEA2D /* BaseCell.swift in Sources */,
 				75E0628F1F0A6D4500B366EC /* AirbnbMapItemCell.swift in Sources */,
+				F5B06CAB2B98183A00BB2AB1 /* ConfettiGuideManager.swift in Sources */,
 				84055D0B2941CAD7005903A0 /* LocationItem.swift in Sources */,
 				106EBBBA2A1EEEDD003AEA2D /* AirbnbDatePickerHeader.swift in Sources */,
 				756034961E75B74A00B78E00 /* String.swift in Sources */,
@@ -777,9 +787,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F5B06CA62B97F48800BB2AB1 /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
+		F59784292B991B3E007CE01D /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/GuideBlocks-org/iOS-GuideBlocks.git";
+			repositoryURL = "https://github.com/GuideBlocks-org/iOS-GuideBlocks";
 			requirement = {
 				branch = develop;
 				kind = branch;
@@ -788,11 +798,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F597842A2B991B3E007CE01D /* GuideBlocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59784292B991B3E007CE01D /* XCRemoteSwiftPackageReference "iOS-GuideBlocks" */;
+			productName = GuideBlocks;
+		};
 		F5B06C932B96633B00BB2AB1 /* GuideBlocks */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = GuideBlocks;
 		};
 		F5B06CA32B96734500BB2AB1 /* GuideBlocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GuideBlocks;
+		};
+		F5B06CA82B97FA7F00BB2AB1 /* GuideBlocks */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = GuideBlocks;
 		};
