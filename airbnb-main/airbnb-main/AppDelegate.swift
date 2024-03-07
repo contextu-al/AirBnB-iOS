@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             forKey: "AppFieldEdit"
         )
         Contextual.sharedInstance().registerGuideBlock(
-            ConfettiGuide(),
+            confettiGuideManager.guideController,
             forKey: "Confetti"
         )
         Contextual.sharedInstance().registerGuideBlock(

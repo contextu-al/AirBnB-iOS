@@ -30,10 +30,10 @@
     {
       "identity" : "ios-guideblocks",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/GuideBlocks-org/iOS-GuideBlocks.git",
+      "location" : "https://github.com/GuideBlocks-org/iOS-GuideBlocks",
       "state" : {
         "branch" : "develop",
-        "revision" : "ddc2ebe51125917537a73546db19eb781b99256e"
+        "revision" : "7f28a65b9b52354e5053b359f862da979cb163e6"
       }
     }
   ],
